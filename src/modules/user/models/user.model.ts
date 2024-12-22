@@ -7,8 +7,8 @@ export interface IUser extends Document {
 	role: string; // student, teacher, admin
 	courses: mongoose.Schema.Types.ObjectId[];
 	avatar: string;
-	createdAt: Date;
-	updatedAt: Date;
+	createdAt?: Date;
+	updatedAt?: Date;
 }
 
 const userSchema: Schema = new Schema(
