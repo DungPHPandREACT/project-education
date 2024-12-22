@@ -2,7 +2,7 @@ import { NextFunction, Response } from 'express';
 import { RequestCustom } from '../types/express.type';
 import { UserPayload } from '../types/user.type';
 
-const roleMiddleware = (roles: string[]) => {
+const roleMiddleware = (roles: string[]): any => {
 	return (req: RequestCustom, res: Response, next: NextFunction) => {
 		const { role } = req.user as UserPayload;
 

@@ -8,7 +8,7 @@ const authMiddleware = (
 	req: RequestCustom,
 	res: Response,
 	next: NextFunction
-) => {
+): any => {
 	const token = req.headers['authorization'];
 
 	if (!token) {
@@ -28,3 +28,5 @@ const authMiddleware = (
 		});
 	}
 };
+
+export default authMiddleware;
