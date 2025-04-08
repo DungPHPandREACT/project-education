@@ -9,7 +9,7 @@ const authMiddleware = (
 	res: Response,
 	next: NextFunction
 ): any => {
-	const token = req.headers['authorization'];
+	const token = req.headers['authorization']?.split(' ')[1];
 
 	if (!token) {
 		return res.status(401).json({
@@ -20,9 +20,11 @@ const authMiddleware = (
 	try {
 		const decoded = jwt.verify(token, config.JWT_SECRET);
 
+		console.log('decoded: ', decoded)
 		req.user = decoded as UserPayload;
         next();
 	} catch (error) {
+		console.log('error: ', error)
 		return res.status(403).json({
 			message: 'Token không hợp lệ',
 		});

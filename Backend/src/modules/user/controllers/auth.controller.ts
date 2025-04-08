@@ -2,9 +2,13 @@ import bcrypt from 'bcrypt';
 import { Request, Response } from 'express';
 import generateToken from '../../../utils/generateToken';
 import User from '../models/user.model';
-import jwt from 'jsonwebtoken';
 
-export const registerUser = async (req: Request, res: Response): Promise<any> => {
+export const registerUser = async (
+	req: Request,
+	res: Response
+): Promise<any> => {
+	console.log('req.body: ', req.body);
+
 	const { email, password, fullName } = req.body;
 
 	try {
@@ -35,33 +39,32 @@ export const registerUser = async (req: Request, res: Response): Promise<any> =>
 	}
 };
 
-
 export const loginUser = async (req: Request, res: Response): Promise<any> => {
-    const {email, password} = req.body;
+	const { email, password } = req.body;
 
-    try{
-        const user = await User.findOne({email});
+	try {
+		const user = await User.findOne({ email });
 
-        if(!user){
-            return res.status(400).json({message: 'Email chưa tồn tại'})
-        }
+		if (!user) {
+			return res.status(400).json({ message: 'Email chưa tồn tại' });
+		}
 
-        const isMatch = await bcrypt.compare(password, user.password);
+		const isMatch = await bcrypt.compare(password, user.password);
 
-        if(!isMatch){
-            return res.status(400).json({
-                message: 'Mật khẩu không trùng khớp'
-            })
-        }
+		if (!isMatch) {
+			return res.status(400).json({
+				message: 'Mật khẩu không trùng khớp',
+			});
+		}
 
-        const token = generateToken(user);
+		const token = generateToken(user);
 
-        res.json({
-            message: 'Đăng nhập thành công',
-            token
-        })
-    } catch(err){
-        console.error(err);
+		res.json({
+			message: 'Đăng nhập thành công',
+			token,
+		});
+	} catch (err) {
+		console.error(err);
 		res.status(500).send('Server error');
-    }
-}
+	}
+};

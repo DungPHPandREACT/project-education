@@ -1,18 +1,17 @@
+import cors from 'cors';
 import express from 'express';
 import config from './config/config';
 import connectDB from './config/db';
-import authRoutes from './modules/user/routes/auth.route';
-import cors from 'cors';
 import categoryRoutes from './modules/category/routes/category.route';
-import quizzRoutes from './modules/quizz/routes/quizz.route';
 import courseRoutes from './modules/course/routes/course.route';
+import discussionRoutes from './modules/discussion/routes/discussion.route';
 import lessonRoutes from './modules/lesson/routes/lesson.route';
+import questionRoutes from './modules/question/routes/question.route';
+import quizzRoutes from './modules/quizz/routes/quizz.route';
 import reviewRoutes from './modules/review/routes/review.route';
 import scheduleRoutes from './modules/schedule/routes/schedule.route';
-import discussionRoutes from './modules/discussion/routes/discussion.route';
+import authRoutes from './modules/user/routes/auth.route';
 import usersQuizzesRoutes from './modules/users_quizzes/routes/users_quizzes.route';
-import questionRoutes from './modules/question/routes/question.route';
-
 
 const app = express();
 const apiRouter = express.Router();
@@ -35,7 +34,7 @@ apiRouter.use('/users-quizzes', usersQuizzesRoutes);
 apiRouter.use('/questions', questionRoutes);
 
 // Áp dụng prefix global
-app.use('/api/v1', apiRouter);
+app.use('/api', apiRouter);
 
 const PORT = config.PORT;
 

@@ -1,6 +1,4 @@
 import axios from 'axios';
-import { AuthContext } from '../contexts/AuthContext';
-import { useContext } from 'react';
 
 export const BASE_URL = 'http://localhost:4000';
 

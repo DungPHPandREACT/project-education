@@ -23,17 +23,6 @@ const AuthProvider = ({ children }) => {
 		setAuthState({ token: null, user: null });
 	};
 
-	useEffect(() => {
-		if (authState.token) {
-			const decoded = jwtDecode(authState.token);
-
-			setAuthState({
-				...authState,
-				user: decoded,
-			});
-		}
-	}, [authState.token]);
-
 	return (
 		<AuthContext.Provider value={{ authState, setAuthState, login, logout }}>
 			{children}
