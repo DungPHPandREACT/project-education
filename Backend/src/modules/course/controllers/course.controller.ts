@@ -77,7 +77,7 @@ export const handleGetCourseById = async (
   res: Response
 ) => {
   try {
-    // Lấy userId từ token (nếu có) - có thể có hoặc không có auth
+    // Lấy userId từ token 
     const userId = req.user?._id?.toString();
     
     const course = await getCourseByIdWithEnrollmentStatus(req.params.id, userId);
