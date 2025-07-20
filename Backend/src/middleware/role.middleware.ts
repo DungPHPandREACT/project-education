@@ -1,19 +1,19 @@
-import { NextFunction, Response } from 'express';
-import { RequestCustom } from '../types/express.type';
-import { UserPayload } from '../types/user.type';
+import { NextFunction, Response } from "express";
+import { RequestCustom } from "../types/express.type";
+import { UserPayload } from "../types/user.type";
 
 const roleMiddleware = (roles: string[]): any => {
-	return (req: RequestCustom, res: Response, next: NextFunction) => {
-		const { role } = req.user as UserPayload;
+  return (req: RequestCustom, res: Response, next: NextFunction) => {
+    const { role } = req.user as UserPayload;
 
-		if (!roles.includes(role)) {
-			return res.status(403).json({
-				message: 'Không có quyền truy cập',
-			});
-		}
+    if (!roles.includes(role)) {
+      return res.status(403).json({
+        message: "Không có quyền truy cập",
+      });
+    }
 
-		next();
-	};
+    next();
+  };
 };
 
 export default roleMiddleware;

@@ -1,5 +1,6 @@
 import { NextFunction, Response } from 'express';
 import { RequestCustom } from '../../../types/express.type';
+import { CustomError } from '../../../utils/custom-error';
 import * as reviewService from '../services/review.service';
 
 export const createReview = async (
@@ -30,10 +31,18 @@ export const createReview = async (
 			data: review,
 		});
 	} catch (error) {
-		res.status(500).json({
-			message: 'Đã có lỗi xảy ra',
-			error: error instanceof Error ? error.message : 'Unknown error',
-		});
+		if (error instanceof CustomError) {
+			res.status(error.statusCode).json({
+				success: false,
+				message: error.message,
+			});
+		} else {
+			res.status(500).json({
+				success: false,
+				message: 'Lỗi server',
+				error: process.env.NODE_ENV === 'development' ? error : undefined,
+			});
+		}
 	}
 };
 
