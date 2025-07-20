@@ -23,8 +23,17 @@ router.delete(
 	roleMiddleware(['admin']),
 	deleteCategory
 );
-router.post('/bulk',authMiddleware, roleMiddleware(['admin']), createManyCategories);
-router.delete('/bulk',authMiddleware, roleMiddleware(['admin']), deleteManyCategories);
-
+router.post(
+	'/bulk',
+	authMiddleware,
+	roleMiddleware(['admin']),
+	createManyCategories
+);
+router.delete(
+	'/bulk',
+	authMiddleware,
+	roleMiddleware(['admin']),
+	deleteManyCategories
+);
 
 export default router;

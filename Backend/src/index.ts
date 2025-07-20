@@ -11,6 +11,8 @@ import quizzRoutes from './modules/quizz/routes/quizz.route';
 import reviewRoutes from './modules/review/routes/review.route';
 import scheduleRoutes from './modules/schedule/routes/schedule.route';
 import authRoutes from './modules/user/routes/auth.route';
+import studentRoutes from './modules/user/routes/student.route';
+import teacherRoutes from './modules/user/routes/teacher.route';
 import usersQuizzesRoutes from './modules/users_quizzes/routes/users_quizzes.route';
 
 const app = express();
@@ -23,6 +25,8 @@ app.use(cors());
 
 // Đăng ký các routes với apiRouter
 apiRouter.use('/auth', authRoutes);
+apiRouter.use('/teachers', teacherRoutes);
+apiRouter.use('/students', studentRoutes);
 apiRouter.use('/categories', categoryRoutes);
 apiRouter.use('/quizzes', quizzRoutes);
 apiRouter.use('/courses', courseRoutes);

@@ -9,7 +9,7 @@ export const registerUser = async (
 ): Promise<any> => {
 	console.log('req.body: ', req.body);
 
-	const { email, password, fullName } = req.body;
+	const { email, password, fullName, role } = req.body;
 
 	try {
 		let user = await User.findOne({ email });
@@ -20,7 +20,7 @@ export const registerUser = async (
 			});
 		}
 
-		user = new User({ email, password, fullName });
+		user = new User({ email, password, fullName, role });
 
 		const salt = await bcrypt.genSalt(10);
 		user.password = await bcrypt.hash(password, salt);

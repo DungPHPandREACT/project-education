@@ -1,5 +1,5 @@
 import { NextFunction, Response } from 'express';
-import jwt from 'jsonwebtoken';
+import jwt, { JwtPayload } from 'jsonwebtoken';
 import config from '../config/config';
 import { RequestCustom } from '../types/express.type';
 import { UserPayload } from '../types/user.type';
@@ -18,13 +18,16 @@ const authMiddleware = (
 	}
 
 	try {
-		const decoded = jwt.verify(token, config.JWT_SECRET);
+		const decoded = jwt.verify(token, config.JWT_SECRET) as JwtPayload;
 
-		console.log('decoded: ', decoded)
-		req.user = decoded as UserPayload;
-        next();
+		req.user = {
+			_id: decoded.userId,
+			role: decoded.role,
+		} as UserPayload;
+
+		next();
 	} catch (error) {
-		console.log('error: ', error)
+		console.log('error: ', error);
 		return res.status(403).json({
 			message: 'Token không hợp lệ',
 		});
