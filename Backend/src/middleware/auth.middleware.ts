@@ -1,5 +1,5 @@
 import { NextFunction, Response } from "express";
-import jwt from "jsonwebtoken";
+import jwt, { JwtPayload } from "jsonwebtoken";
 import config from "../config/config";
 import { RequestCustom } from "../types/express.type";
 import { UserPayload } from "../types/user.type";
@@ -9,8 +9,6 @@ const authMiddleware = (
   res: Response,
   next: NextFunction
 ): any => {
-  console.log("start");
-
   const token = req.headers["authorization"]?.split(" ")[1];
 
   if (!token) {
@@ -20,10 +18,13 @@ const authMiddleware = (
   }
 
   try {
-    const decoded = jwt.verify(token, config.JWT_SECRET);
+    const decoded = jwt.verify(token, config.JWT_SECRET) as JwtPayload;
 
-    console.log("decoded: ", decoded);
-    req.user = decoded as UserPayload;
+    req.user = {
+      _id: decoded.userId,
+      role: decoded.role,
+    } as UserPayload;
+
     next();
   } catch (error) {
     console.log("error: ", error);

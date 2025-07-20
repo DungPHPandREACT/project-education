@@ -7,10 +7,13 @@ import {
   deleteCourse,
   getCoursesByCategory,
   getCoursesByMe,
+  enrollCourse,
+  unenrollCourse,
 } from "../services/course.service";
 import { CustomError } from "../../../utils/custom-error";
 import { UserPayload } from "../../../types/user.type";
 import { RequestCustom } from "../../../types/express.type";
+import mongoose from "mongoose";
 
 // Thêm interface cho request body
 interface CourseRequest {
@@ -214,13 +217,85 @@ export const handleGetCoursesByMe = async (
   try {
     const userId = req.user?._id;
 
-    const courses = await getCoursesByMe(userId!);
+    if (!userId) {
+      throw new CustomError("Không tìm thấy thông tin người dùng.", 404);
+    }
+
+    const courses = await getCoursesByMe(userId);
 
     res.status(200).json({
       success: true,
       message: "Lấy danh sách khóa học đã tham gia thành công",
       data: courses,
     });
+  } catch (error) {
+    if (error instanceof CustomError) {
+      res.status(error.statusCode).json({
+        success: false,
+        message: error.message,
+      });
+    } else {
+      res.status(500).json({
+        success: false,
+        message: "Lỗi server",
+        error: process.env.NODE_ENV === "development" ? error : undefined,
+      });
+    }
+  }
+};
+
+export const handleEnrollCourse = async (
+  req: RequestCustom,
+  res: Response
+): Promise<any> => {
+  try {
+    const userId = req.user?._id;
+    const courseId = req.params.id;
+
+    if (!userId) {
+      throw new CustomError("Không tìm thấy thông tin người dùng.", 404);
+    }
+
+    const result = await enrollCourse(
+      userId,
+      new mongoose.Types.ObjectId(courseId)
+    );
+
+    return res.status(201).json(result);
+  } catch (error) {
+    if (error instanceof CustomError) {
+      res.status(error.statusCode).json({
+        success: false,
+        message: error.message,
+      });
+    } else {
+      res.status(500).json({
+        success: false,
+        message: "Lỗi server",
+        error: process.env.NODE_ENV === "development" ? error : undefined,
+      });
+    }
+  }
+};
+
+export const handleUnenrollCourse = async (
+  req: RequestCustom,
+  res: Response
+): Promise<any> => {
+  try {
+    const userId = req.user?._id;
+    const courseId = req.params.id;
+
+    if (!userId) {
+      throw new CustomError("Không tìm thấy thông tin người dùng.", 404);
+    }
+
+    const result = await unenrollCourse(
+      userId,
+      new mongoose.Types.ObjectId(courseId)
+    );
+
+    return res.status(201).json(result);
   } catch (error) {
     if (error instanceof CustomError) {
       res.status(error.statusCode).json({

@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 import Course, { ICourse } from "../models/course.model";
+import { CustomError } from "../../../utils/custom-error";
+import User from "../../user/models/user.model";
 
 export async function createCourse(courseData: Partial<ICourse>) {
   return await Course.create(courseData);
@@ -58,7 +60,6 @@ export const getCoursesByCategory = async (
 
     return { courses, totalCourses, totalPages, currentPage: page, limit };
   } catch (error) {
-    console.error("Error in getCoursesByCategory: ", error);
     throw new Error("Có lỗi khi lấy danh sách khóa học.");
   }
 };
@@ -73,7 +74,70 @@ export const getCoursesByMe = async (
 
     return courses;
   } catch (error) {
-    console.error("Error in getCoursesByCategory: ", error);
     throw new Error("Có lỗi khi lấy danh sách khóa học.");
+  }
+};
+
+export const enrollCourse = async (
+  userId: mongoose.Types.ObjectId,
+  courseId: mongoose.Types.ObjectId
+) => {
+  try {
+    const course = await Course.findOne({
+      _id: courseId,
+      users: userId,
+    });
+
+    if (course) {
+      throw new CustomError("Bạn đã đăng ký khóa học này.", 409);
+    }
+
+    await Promise.all([
+      Course.updateOne({ _id: courseId }, { $addToSet: { users: userId } }),
+      User.updateOne({ _id: userId }, { $addToSet: { courses: courseId } }),
+    ]);
+
+    return {
+      success: true,
+      message: "Đăng ký khóa học thành công",
+    };
+  } catch (error) {
+    if (error instanceof CustomError) {
+      throw error;
+    }
+
+    throw new Error("Có lỗi khi đăng ký khóa học.");
+  }
+};
+
+export const unenrollCourse = async (
+  userId: mongoose.Types.ObjectId,
+  courseId: mongoose.Types.ObjectId
+) => {
+  try {
+    const course = await Course.findOne({
+      _id: courseId,
+      users: userId,
+    });
+
+    if (!course) {
+      throw new CustomError("Bạn chưa đăng ký khóa học này.", 409);
+    }
+
+    await Promise.all([
+      Course.updateOne({ _id: courseId }, { $pull: { users: userId } }),
+      User.updateOne({ _id: userId }, { $pull: { courses: courseId } }),
+    ]);
+
+    return {
+      success: true,
+      message: "Hủy đăng ký khóa học thành công",
+    };
+  } catch (error) {
+    if (error instanceof CustomError) {
+      throw error;
+    }
+
+    throw new Error("Có lỗi khi hủy đăng ký khóa học.");
   }
 };
