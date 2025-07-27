@@ -59,5 +59,5 @@ router.get('/category', handleGetCoursesByCategory);
 router.get('/', handleGetAllCourses);
 router.get('/popular', handleGetPopularCourses);
 router.get('/popular-by-reviews', handleGetPopularCoursesSortedByReviews);
-router.get('/:id', optionalAuthMiddleware, handleGetCourseById);
+router.get('/:id', handleGetCourseById);
 export default router;

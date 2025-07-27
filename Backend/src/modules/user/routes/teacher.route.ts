@@ -12,7 +12,7 @@ const router = express.Router();
 router.get('/stats', getSystemStats);
 
 // Protected
-router.get('/', authMiddleware, getAllTeachers);
+router.get('/', getAllTeachers);
 router.get('/top', getTopTeachers);
 
 export default router;

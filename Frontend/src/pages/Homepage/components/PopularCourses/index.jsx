@@ -1,12 +1,10 @@
 import { useGetAllCoursesPopular } from '../../../../apis/courses/courses.api';
-import Course from './Course';
+import Course from '../../../../components/Course';
 
 const PopularCourses = () => {
 	const { data: courses = [] } = useGetAllCoursesPopular({
 		limit: 3,
 	});
-
-	console.log('courses: ', courses);
 
 	return (
 		<section id='courses' className='courses section'>

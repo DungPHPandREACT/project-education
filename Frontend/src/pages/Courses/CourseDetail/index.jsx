@@ -1,4 +1,10 @@
+import { useGetCourseById } from '../../../apis/courses/courses.api';
+
 const CourseDetail = () => {
+	const id = '6885f21676ea704d777845b9';
+
+	const { data: detailCourse = {} } = useGetCourseById(id);
+
 	return (
 		<>
 			{/* Course Details Section */}
@@ -27,22 +33,22 @@ const CourseDetail = () => {
 											className='instructor-avatar'
 										/>
 										<div className='instructor-info'>
-											<h6>Dr. Sarah Mitchell</h6>
-											<span>Computer Science Professor</span>
+											<h6>{detailCourse?.instructorId?.fullName}</h6>
+											<span>{detailCourse?.instructorId?.email}</span>
 										</div>
 									</div>
 									<div className='course-stats'>
 										<div className='stat-item'>
 											<i className='bi bi-people' />
-											<span>2,847 students</span>
+											<span>{detailCourse?.user?.length ?? 0} students</span>
 										</div>
 										<div className='stat-item'>
 											<i className='bi bi-clock' />
-											<span>40 hours</span>
+											<span>{detailCourse?.createdAt}</span>
 										</div>
 										<div className='stat-item'>
 											<i className='bi bi-calendar' />
-											<span>16 weeks</span>
+											<span>{detailCourse?.lessons?.length ?? 0} lessons</span>
 										</div>
 									</div>
 								</div>
@@ -54,20 +60,9 @@ const CourseDetail = () => {
 								data-aos='fade-up'
 								data-aos-delay={300}
 							>
-								<h2>Advanced Web Development Fundamentals</h2>
+								<h2>{detailCourse.title}</h2>
 								<div className='course-description'>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-										do eiusmod tempor incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-										ullamco laboris nisi ut aliquip ex ea commodo consequat.
-									</p>
-									<p>
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat non proident, sunt in culpa qui officia
-										deserunt mollit anim id est laborum.
-									</p>
+									<p>{detailCourse.description}</p>
 								</div>
 								<div className='what-you-learn'>
 									<h3>What You'll Learn</h3>
@@ -126,81 +121,23 @@ const CourseDetail = () => {
 								<div className='curriculum-section'>
 									<div className='section-header'>
 										<h4>Module 1: Introduction to Modern Web Development</h4>
-										<span className='lessons-count'>6 lessons • 3 hours</span>
+										<span className='lessons-count'>
+											{detailCourse?.lessons?.length ?? 0} lessons
+										</span>
 									</div>
 									<div className='lessons'>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>Setting up the Development Environment</span>
-											</div>
-											<span className='lesson-duration'>18 min</span>
-										</div>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>JavaScript Fundamentals Review</span>
-											</div>
-											<span className='lesson-duration'>25 min</span>
-										</div>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-file-text' />
-												<span>Understanding Modern Development Tools</span>
-											</div>
-											<span className='lesson-duration'>32 min</span>
-										</div>
-									</div>
-								</div>
-								<div className='curriculum-section'>
-									<div className='section-header'>
-										<h4>Module 2: React.js Fundamentals</h4>
-										<span className='lessons-count'>8 lessons • 5 hours</span>
-									</div>
-									<div className='lessons'>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>Component Architecture and JSX</span>
-											</div>
-											<span className='lesson-duration'>28 min</span>
-										</div>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>State Management and Props</span>
-											</div>
-											<span className='lesson-duration'>35 min</span>
-										</div>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-file-text' />
-												<span>Handling Events and Forms</span>
-											</div>
-											<span className='lesson-duration'>42 min</span>
-										</div>
-									</div>
-								</div>
-								<div className='curriculum-section'>
-									<div className='section-header'>
-										<h4>Module 3: Backend Development with Node.js</h4>
-										<span className='lessons-count'>10 lessons • 6 hours</span>
-									</div>
-									<div className='lessons'>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>Setting up Express.js Server</span>
-											</div>
-											<span className='lesson-duration'>22 min</span>
-										</div>
-										<div className='lesson-item'>
-											<div className='lesson-info'>
-												<i className='bi bi-play-circle' />
-												<span>Creating RESTful APIs</span>
-											</div>
-											<span className='lesson-duration'>45 min</span>
-										</div>
+										{detailCourse?.lessons &&
+											detailCourse?.lessons?.map((lesson) => (
+												<div className='lesson-item'>
+													<div className='lesson-info'>
+														<i className='bi bi-play-circle' />
+														<span>{lesson.title}</span>
+													</div>
+													<span className='lesson-duration'>
+														{lesson.createdAt}
+													</span>
+												</div>
+											))}
 									</div>
 								</div>
 							</div>

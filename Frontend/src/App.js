@@ -5,18 +5,19 @@ import CourseDetail from './pages/Courses/CourseDetail';
 import Courses from './pages/Courses';
 import Events from './pages/Events';
 import Homepage from './pages/Homepage';
-import Teachers from './pages/Teachers';
+import ListTeachers from './pages/ListTeachers';
 
 const App = () => {
 	return (
 		<DefaultPage>
+			{/* <Homepage /> */}
 			{/* <Courses /> */}
+			{/* <ListTeachers /> */}
+
 			{/* <Events /> */}
 			{/* <About /> */}
 			{/* <Contact /> */}
-			{/* <CourseDetail /> */}
-			{/* <ListTeachers /> */}
-			<Homepage />
+			<CourseDetail />
 		</DefaultPage>
 	);
 };
