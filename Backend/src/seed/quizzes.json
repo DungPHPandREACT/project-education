@@ -1,0 +1,139 @@
+[
+	{
+		"_id": "51bb24ae-d4dc-4e23-8653-4bd3651f1620",
+		"title": "Bài kiểm tra số 1",
+		"description": "Đề kiểm tra kiến thức lập trình số 1",
+		"courseId": "62e13b96-ea71-4bc6-a4c8-11c97d9f03b3",
+		"questions": [
+			"1657e4dd-8deb-43cc-baea-5f34155c5498",
+			"71e5c3db-4461-4425-9658-e073aedbb3bc",
+			"3efd6321-16b9-43d0-84e5-26c429cf1223",
+			"6b5a7136-40ab-4686-a126-b4ebf72911d6"
+		],
+		"duration": 30,
+		"level": 3,
+		"category": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"createdAt": "2025-07-20T10:56:44.426368",
+		"updatedAt": "2025-07-20T10:56:44.426392"
+	},
+	{
+		"_id": "a9e9d2f9-d2b7-47cf-b224-4604848fb05d",
+		"title": "Bài kiểm tra số 2",
+		"description": "Đề kiểm tra kiến thức lập trình số 2",
+		"courseId": "24472370-c895-479d-94f0-e5cf32f2257c",
+		"questions": [
+			"8889887c-6571-4f03-9864-079e7aa5e65f",
+			"1c1b6e5a-6653-4a72-95ff-b45035fcf733",
+			"716da569-94f8-4a3d-b5a6-7fee29518ade",
+			"7517abf5-3a3b-44bb-abeb-63a3b24af8be"
+		],
+		"duration": 15,
+		"level": 2,
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"createdAt": "2025-07-20T10:56:44.426795",
+		"updatedAt": "2025-07-20T10:56:44.426802"
+	},
+	{
+		"_id": "674c1ac8-c8a4-4a0a-bcf9-a419b625c932",
+		"title": "Bài kiểm tra số 3",
+		"description": "Đề kiểm tra kiến thức lập trình số 3",
+		"courseId": "f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+		"questions": [
+			"0e1abfcb-ff34-4875-a854-f660ac3f6835",
+			"78aa1d02-a59e-440f-80ea-ce2e08875d36",
+			"e5f5a214-e1da-4d36-8687-5e7dd306a4d8",
+			"7403dd1d-fd26-483a-b73c-188a8afafacd"
+		],
+		"duration": 15,
+		"level": 1,
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"createdAt": "2025-07-20T10:56:44.426918",
+		"updatedAt": "2025-07-20T10:56:44.426922"
+	},
+	{
+		"_id": "9856cf50-9bcc-4d21-b4e2-2725ce32c105",
+		"title": "Bài kiểm tra số 7",
+		"description": "Đề kiểm tra kiến thức lập trình số 7",
+		"courseId": "dbb28296-a07b-4349-9ebf-a3533f64588a",
+		"questions": [
+			"e6974e12-6976-4608-b0a6-c2cf3ca1af9d",
+			"5d8e85e3-dd6c-4c63-9314-2e2897840b4e",
+			"1f33a265-85de-4ff1-8ea9-3281174cbfde"
+		],
+		"duration": 60,
+		"level": 3,
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"createdAt": "2025-07-20T10:56:44.427816",
+		"updatedAt": "2025-07-20T10:56:44.427818"
+	},
+	{
+		"_id": "9b5c058a-4dee-4532-9bc7-213237a83825",
+		"title": "Bài kiểm tra số 8",
+		"description": "Đề kiểm tra kiến thức lập trình số 8",
+		"courseId": "5dcce262-f00e-42a1-93a5-27fc79d1a02b",
+		"questions": ["90b1e84c-3b4d-43d8-a705-c271534265e3"],
+		"duration": 45,
+		"level": 2,
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"createdAt": "2025-07-20T10:56:44.427845",
+		"updatedAt": "2025-07-20T10:56:44.427850"
+	},
+	{
+		"_id": "f69cda1f-84b1-4c78-bf80-e6fdc1f18c9c",
+		"title": "Bài kiểm tra số 10",
+		"description": "Đề kiểm tra kiến thức lập trình số 10",
+		"courseId": "ce790be0-2e19-45da-ba52-542a10d76460",
+		"questions": [
+			"47cebd83-c67b-41c7-a0d0-e6a38e7fcfdf",
+			"5ac644b9-c965-4634-9e00-9b6fd0a52fc4"
+		],
+		"duration": 45,
+		"level": 2,
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"createdAt": "2025-07-20T10:56:44.428012",
+		"updatedAt": "2025-07-20T10:56:44.428015"
+	},
+	{
+		"_id": "3d9f59b9-2fa0-46c4-9f37-731544648f78",
+		"title": "Bài kiểm tra số 12",
+		"description": "Đề kiểm tra kiến thức lập trình số 12",
+		"courseId": "4774d74d-42cc-4fb1-8c28-f34ae8fb8379",
+		"questions": ["17d8bd89-a646-4ebe-b3b3-050d253f54dd"],
+		"duration": 45,
+		"level": 3,
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"createdAt": "2025-07-20T10:56:44.428043",
+		"updatedAt": "2025-07-20T10:56:44.428045"
+	},
+	{
+		"_id": "086c975f-c3b1-465f-8865-454114993edc",
+		"title": "Bài kiểm tra số 13",
+		"description": "Đề kiểm tra kiến thức lập trình số 13",
+		"courseId": "62e13b96-ea71-4bc6-a4c8-11c97d9f03b3",
+		"questions": [
+			"ed390e4a-9a72-406d-8593-2563cbf0e8a7",
+			"11f94fb6-6b87-4b4b-b064-e4013d945561"
+		],
+		"duration": 30,
+		"level": 3,
+		"category": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"createdAt": "2025-07-20T10:56:44.428057",
+		"updatedAt": "2025-07-20T10:56:44.428060"
+	},
+	{
+		"_id": "434c8664-1ccf-46d1-8e4e-dd4d30164848",
+		"title": "Bài kiểm tra số 15",
+		"description": "Đề kiểm tra kiến thức lập trình số 15",
+		"courseId": "4774d74d-42cc-4fb1-8c28-f34ae8fb8379",
+		"questions": [
+			"e9d4c985-4a21-4df8-81df-7a0478486a35",
+			"5a00858e-6130-4865-bc6e-03821efe7de6",
+			"1f885eae-115c-48c6-b671-beda22323b36"
+		],
+		"duration": 30,
+		"level": 3,
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"createdAt": "2025-07-20T10:56:44.428087",
+		"updatedAt": "2025-07-20T10:56:44.428089"
+	}
+]

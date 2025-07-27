@@ -1,0 +1,44 @@
+[
+	{
+		"_id": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"title": "Lập trình Web",
+		"description": "Các khóa học về phát triển web frontend và backend",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	},
+	{
+		"_id": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"title": "Lập trình Mobile",
+		"description": "Các khóa học về phát triển ứng dụng di động",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	},
+	{
+		"_id": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"title": "Data Science",
+		"description": "Các khóa học về khoa học dữ liệu và machine learning",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	},
+	{
+		"_id": "e01010a6-dceb-4620-b610-d9cb0067bbd0",
+		"title": "DevOps",
+		"description": "Các khóa học về DevOps và cloud computing",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	},
+	{
+		"_id": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"title": "Lập trình nâng cao",
+		"description": "Các khóa học lập trình nâng cao cho developers có kinh nghiệm",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	},
+	{
+		"_id": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"title": "Lập trình cơ bản",
+		"description": "Các khóa học lập trình cơ bản cho người mới bắt đầu",
+		"createdAt": "2024-01-15T10:00:00.000Z",
+		"updatedAt": "2024-01-15T10:00:00.000Z"
+	}
+]

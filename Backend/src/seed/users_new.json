@@ -1,0 +1,134 @@
+[
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d1",
+		"email": "user0@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 0",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0d2"],
+		"avatar": "https://avatar.example.com/user0.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d3",
+		"email": "user1@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 1",
+		"role": "teacher",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0d4", "60f1b2e3c4d5e6f7a8b9c0d5"],
+		"avatar": "https://avatar.example.com/user1.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d6",
+		"email": "user2@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 2",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0d7"],
+		"avatar": "https://avatar.example.com/user2.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d8",
+		"email": "user3@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 3",
+		"role": "admin",
+		"courses": [],
+		"avatar": "https://avatar.example.com/user3.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d9",
+		"email": "user4@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 4",
+		"role": "teacher",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0da"],
+		"avatar": "https://avatar.example.com/user4.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0db",
+		"email": "user5@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 5",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0dc"],
+		"avatar": "https://avatar.example.com/user5.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0dd",
+		"email": "user6@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 6",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0de"],
+		"avatar": "https://avatar.example.com/user6.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0df",
+		"email": "user7@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 7",
+		"role": "teacher",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0e0"],
+		"avatar": "https://avatar.example.com/user7.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0e1",
+		"email": "user8@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 8",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0e2"],
+		"avatar": "https://avatar.example.com/user8.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0e3",
+		"email": "user9@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 9",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0e4"],
+		"avatar": "https://avatar.example.com/user9.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0e5",
+		"email": "user10@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 10",
+		"role": "teacher",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0e6"],
+		"avatar": "https://avatar.example.com/user10.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0e7",
+		"email": "user11@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 11",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0e8"],
+		"avatar": "https://avatar.example.com/user11.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	}
+]

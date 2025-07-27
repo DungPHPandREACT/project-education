@@ -1,0 +1,183 @@
+[
+	{
+		"_id": "60f1b2e3c4d5e6f7a8b9c0d1",
+		"email": "user0@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 0",
+		"role": "student",
+		"courses": ["60f1b2e3c4d5e6f7a8b9c0d2"],
+		"avatar": "https://avatar.example.com/user0.png",
+		"createdAt": "2024-08-26T10:20:28.869Z",
+		"updatedAt": "2024-08-01T10:20:28.869Z"
+	},
+	{
+		"_id": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"email": "user1@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 1",
+		"role": "teacher",
+		"courses": [
+			"68e2ae5e-80a6-4cdc-bff8-17543a395055",
+			"dbb28296-a07b-4349-9ebf-a3533f64588a"
+		],
+		"avatar": "https://avatar.example.com/user1.png",
+		"createdAt": "2024-10-04T10:20:28.869970",
+		"updatedAt": "2024-11-19T10:20:28.869974"
+	},
+	{
+		"_id": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+		"email": "user2@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 2",
+		"role": "student",
+		"courses": [
+			"b5878990-b73a-4500-9fa0-06f7cadf8962",
+			"6bd90e00-7d63-4e4b-b059-6439a991416f",
+			"2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3"
+		],
+		"avatar": "https://avatar.example.com/user2.png",
+		"createdAt": "2025-03-14T10:20:28.869989",
+		"updatedAt": "2024-10-31T10:20:28.869998"
+	},
+	{
+		"_id": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"email": "user3@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 3",
+		"role": "teacher",
+		"courses": [
+			"c72bd201-e3ae-41ed-81f2-184583664cc9",
+			"a609df39-4b8a-43d0-89c9-b6e33505821c"
+		],
+		"avatar": "https://avatar.example.com/user3.png",
+		"createdAt": "2025-05-29T10:20:28.870015",
+		"updatedAt": "2025-01-24T10:20:28.870021"
+	},
+	{
+		"_id": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+		"email": "user4@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 4",
+		"role": "student",
+		"courses": [
+			"4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+			"b5878990-b73a-4500-9fa0-06f7cadf8962"
+		],
+		"avatar": "https://avatar.example.com/user4.png",
+		"createdAt": "2024-08-31T10:20:28.870036",
+		"updatedAt": "2024-10-20T10:20:28.870041"
+	},
+	{
+		"_id": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"email": "user5@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 5",
+		"role": "student",
+		"courses": [
+			"816201f8-6a91-48dd-a22e-2b6113bd17f5",
+			"5b9f8bf6-8c8d-4b24-9d2b-d1016305d340",
+			"ce790be0-2e19-45da-ba52-542a10d76460"
+		],
+		"avatar": "https://avatar.example.com/user5.png",
+		"createdAt": "2025-05-15T10:20:28.870056",
+		"updatedAt": "2024-10-29T10:20:28.870062"
+	},
+	{
+		"_id": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"email": "user6@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 6",
+		"role": "student",
+		"courses": [
+			"68e2ae5e-80a6-4cdc-bff8-17543a395055",
+			"6bd90e00-7d63-4e4b-b059-6439a991416f"
+		],
+		"avatar": "https://avatar.example.com/user6.png",
+		"createdAt": "2025-05-23T10:20:28.870074",
+		"updatedAt": "2025-02-17T10:20:28.870082"
+	},
+	{
+		"_id": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"email": "user7@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 7",
+		"role": "admin",
+		"courses": [
+			"dbb28296-a07b-4349-9ebf-a3533f64588a",
+			"2c6d9154-3d8f-4247-808a-1dd2a27be332",
+			"d1936037-2f6f-4413-868e-0a35327c47f1"
+		],
+		"avatar": "https://avatar.example.com/user7.png",
+		"createdAt": "2024-09-19T10:20:28.870093",
+		"updatedAt": "2025-06-21T10:20:28.870096"
+	},
+	{
+		"_id": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+		"email": "user8@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 8",
+		"role": "student",
+		"courses": [
+			"4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+			"2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3"
+		],
+		"avatar": "https://avatar.example.com/user8.png",
+		"createdAt": "2025-07-16T10:20:28.870105",
+		"updatedAt": "2025-01-06T10:20:28.870108"
+	},
+	{
+		"_id": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+		"email": "user9@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 9",
+		"role": "admin",
+		"courses": [
+			"2c6d9154-3d8f-4247-808a-1dd2a27be332",
+			"2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3",
+			"f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7"
+		],
+		"avatar": "https://avatar.example.com/user9.png",
+		"createdAt": "2024-09-18T10:20:28.870117",
+		"updatedAt": "2025-01-20T10:20:28.870122"
+	},
+	{
+		"_id": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+		"email": "user10@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 10",
+		"role": "admin",
+		"courses": [
+			"f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+			"ce790be0-2e19-45da-ba52-542a10d76460"
+		],
+		"avatar": "https://avatar.example.com/user10.png",
+		"createdAt": "2025-05-29T10:20:28.870134",
+		"updatedAt": "2025-04-23T10:20:28.870139"
+	},
+	{
+		"_id": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+		"email": "user11@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 11",
+		"role": "admin",
+		"courses": [],
+		"avatar": "https://avatar.example.com/user11.png",
+		"createdAt": "2025-06-18T10:20:28.870153",
+		"updatedAt": "2025-05-27T10:20:28.870158"
+	},
+	{
+		"_id": "1566a962-511a-4e0b-adad-541dfe509604",
+		"email": "user19@example.com",
+		"password": "hashed_password",
+		"fullName": "Người dùng 19",
+		"role": "admin",
+		"courses": [
+			"ce790be0-2e19-45da-ba52-542a10d76460",
+			"4774d74d-42cc-4fb1-8c28-f34ae8fb8379",
+			"4daab1a8-88c3-41e2-be8b-a905c6b39f7c"
+		],
+		"avatar": "https://avatar.example.com/user19.png",
+		"createdAt": "2025-01-17T10:20:28.870281",
+		"updatedAt": "2025-07-08T10:20:28.870284"
+	}
+]

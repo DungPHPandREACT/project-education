@@ -1,0 +1,637 @@
+[
+	{
+		"_id": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"title": "Khoá học Lập trình 0",
+		"description": "Khoá học chi tiết về lập trình số 0.",
+		"instructorId": "3e95a4cd-80f2-446e-9970-c50373c935e5",
+		"lessons": [
+			"ebe5e795-d8ac-4432-a1e1-3ba750fada5d",
+			"0469ce97-8467-44d4-bb33-a933f61796be"
+		],
+		"resources": ["https://resource.example.com/0.pdf"],
+		"reviews": ["5ea22616-bf83-4aca-bf63-8c5a15a45329"],
+		"quizzes": ["b52f8811-bf0c-4092-9c49-531eb6d6dec1"],
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"users": [
+			"e97f6113-c52f-4397-9ccd-0d5f5b234be9",
+			"430c4870-cf87-4e7c-93bd-caf710c73b5c",
+			"3e95a4cd-80f2-446e-9970-c50373c935e5"
+		],
+		"createdAt": "2025-02-28T10:20:28.870640",
+		"updatedAt": "2024-09-23T10:20:28.870646"
+	},
+	{
+		"_id": "4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+		"title": "Khoá học Lập trình 1",
+		"description": "Khoá học chi tiết về lập trình số 1.",
+		"instructorId": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+		"lessons": [
+			"8a1e7f3e-9371-4cc5-b682-45d0aaf98069",
+			"c1d3f14b-0329-495c-8588-9fa2817f21f2"
+		],
+		"resources": ["https://resource.example.com/1.pdf"],
+		"reviews": ["b3f142b6-58a4-49e3-950f-cff6f23ceefe"],
+		"quizzes": ["3eb50391-b679-405a-80a5-fc4fdd9678b5"],
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"users": [
+			"7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+			"1566a962-511a-4e0b-adad-541dfe509604"
+		],
+		"createdAt": "2025-06-28T10:20:28.870663",
+		"updatedAt": "2025-06-21T10:20:28.870669"
+	},
+	{
+		"_id": "b5878990-b73a-4500-9fa0-06f7cadf8962",
+		"title": "Khoá học Lập trình 2",
+		"description": "Khoá học chi tiết về lập trình số 2.",
+		"instructorId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+		"lessons": [
+			"bb2fdf62-4cf9-4bbd-a339-02fa6171b51c",
+			"078d3e06-836f-4f75-bde3-6293df2d735b"
+		],
+		"resources": ["https://resource.example.com/2.pdf"],
+		"reviews": [
+			"b3f142b6-58a4-49e3-950f-cff6f23ceefe",
+			"7ce6242a-7e5a-4f41-a635-04ee6cf751d7"
+		],
+		"quizzes": ["016417ff-52b5-44e2-9f55-328ef0beb069"],
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"users": [
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+			"1192ee80-b14e-4e63-ae91-6163b7e0a093",
+			"e97f6113-c52f-4397-9ccd-0d5f5b234be9"
+		],
+		"createdAt": "2025-02-03T10:20:28.870683",
+		"updatedAt": "2025-06-05T10:20:28.870688"
+	},
+	{
+		"_id": "68e2ae5e-80a6-4cdc-bff8-17543a395055",
+		"title": "Khoá học Lập trình 3",
+		"description": "Khoá học chi tiết về lập trình số 3.",
+		"instructorId": "deceb263-b543-4525-ae21-9b7eeb5cc43c",
+		"lessons": [
+			"c11d22ec-539d-48b6-8b7d-3800e8a43233",
+			"3ef97519-85a6-408c-8208-826a19cf6d8e"
+		],
+		"resources": ["https://resource.example.com/3.pdf"],
+		"reviews": ["d53e4e1c-bd5b-470e-ae2e-bd214f8c0626"],
+		"quizzes": ["9b0f86c5-bc1b-414e-8c60-2736a30aa2e3"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+			"bf206746-6902-4967-8ec9-15fa5e405e2d"
+		],
+		"createdAt": "2025-03-27T10:20:28.870702",
+		"updatedAt": "2024-10-15T10:20:28.870705"
+	},
+	{
+		"_id": "dbb28296-a07b-4349-9ebf-a3533f64588a",
+		"title": "Khoá học Lập trình 4",
+		"description": "Khoá học chi tiết về lập trình số 4.",
+		"instructorId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"lessons": [
+			"f6e7484a-2891-4328-b57f-8d40702f688d",
+			"a410f5b9-d5a7-4436-9777-87eac5c4029d"
+		],
+		"resources": ["https://resource.example.com/4.pdf"],
+		"reviews": ["d53e4e1c-bd5b-470e-ae2e-bd214f8c0626"],
+		"quizzes": ["cc308d87-72c2-4c74-a282-d58d2c8b6c46"],
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"users": ["e6063e23-a1a4-4a9a-98c4-1abaf874a4ab"],
+		"createdAt": "2025-05-01T10:20:28.870717",
+		"updatedAt": "2024-08-25T10:20:28.870721"
+	},
+	{
+		"_id": "816201f8-6a91-48dd-a22e-2b6113bd17f5",
+		"title": "Khoá học Lập trình 5",
+		"description": "Khoá học chi tiết về lập trình số 5.",
+		"instructorId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"lessons": [
+			"e4cb2a09-846c-4b56-a51d-3b2e6c3d8ad3",
+			"fd8f3fa4-1328-4aa4-9c72-4b9cd92c0eb6"
+		],
+		"resources": ["https://resource.example.com/5.pdf"],
+		"reviews": ["f3a3a36b-92f0-4a4c-b3d6-9ab6c7b396c4"],
+		"quizzes": ["78fc92bb-1c8d-4ac5-a9f0-8bda306c6b42"],
+		"category": "e01010a6-dceb-4620-b610-d9cb0067bbd0",
+		"users": [
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+			"914390a6-a4f6-485d-a26c-e1fb50b4ca84"
+		],
+		"createdAt": "2024-09-12T10:20:28.870731",
+		"updatedAt": "2025-07-08T10:20:28.870735"
+	},
+	{
+		"_id": "a609df39-4b8a-43d0-89c9-b6e33505821c",
+		"title": "Khoá học Lập trình 6",
+		"description": "Khoá học chi tiết về lập trình số 6.",
+		"instructorId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"lessons": [
+			"20a6d5b2-481e-4b63-8f37-27c167779da9",
+			"ad9e0be2-71f6-4ee9-bac7-7e1ad4c5ab16"
+		],
+		"resources": ["https://resource.example.com/6.pdf"],
+		"reviews": ["6a1893d0-dcad-4e60-9264-60bb0c86a7a5"],
+		"quizzes": ["b52f8811-bf0c-4092-9c49-531eb6d6dec1"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": ["430c4870-cf87-4e7c-93bd-caf710c73b5c"],
+		"createdAt": "2024-08-05T10:20:28.870743",
+		"updatedAt": "2024-08-21T10:20:28.870746"
+	},
+	{
+		"_id": "2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3",
+		"title": "Khoá học Lập trình 7",
+		"description": "Khoá học chi tiết về lập trình số 7.",
+		"instructorId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+		"lessons": [
+			"dc317fe6-d2ec-4be7-9c26-4a4fa0d1747b",
+			"142b2d61-bba1-4ec2-857a-f3a680f1573e"
+		],
+		"resources": ["https://resource.example.com/7.pdf"],
+		"reviews": ["0d78c7f5-7707-4467-a9c9-6b0c355d3517"],
+		"quizzes": ["016417ff-52b5-44e2-9f55-328ef0beb069"],
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"users": [
+			"914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+			"1566a962-511a-4e0b-adad-541dfe509604"
+		],
+		"createdAt": "2024-09-14T10:20:28.870754",
+		"updatedAt": "2025-05-13T10:20:28.870757"
+	},
+	{
+		"_id": "f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+		"title": "Khoá học Lập trình 8",
+		"description": "Khoá học chi tiết về lập trình số 8.",
+		"instructorId": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+		"lessons": [
+			"70e77b68-6c82-455a-a58a-26804066a0e4",
+			"f6e7484a-2891-4328-b57f-8d40702f688d"
+		],
+		"resources": ["https://resource.example.com/8.pdf"],
+		"reviews": ["7ce6242a-7e5a-4f41-a635-04ee6cf751d7"],
+		"quizzes": ["cc308d87-72c2-4c74-a282-d58d2c8b6c46"],
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"users": [
+			"b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+			"684cc362-e3ee-40dc-99e5-16e94789c456"
+		],
+		"createdAt": "2024-10-06T10:20:28.870764",
+		"updatedAt": "2024-09-24T10:20:28.870767"
+	},
+	{
+		"_id": "c72bd201-e3ae-41ed-81f2-184583664cc9",
+		"title": "Khoá học Lập trình 9",
+		"description": "Khoá học chi tiết về lập trình số 9.",
+		"instructorId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"lessons": [
+			"ebe5e795-d8ac-4432-a1e1-3ba750fada5d",
+			"dc317fe6-d2ec-4be7-9c26-4a4fa0d1747b"
+		],
+		"resources": ["https://resource.example.com/9.pdf"],
+		"reviews": ["5ea22616-bf83-4aca-bf63-8c5a15a45329"],
+		"quizzes": ["9b0f86c5-bc1b-414e-8c60-2736a30aa2e3"],
+		"category": "e01010a6-dceb-4620-b610-d9cb0067bbd0",
+		"users": [
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+			"b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a"
+		],
+		"createdAt": "2024-11-15T10:20:28.870774",
+		"updatedAt": "2025-07-03T10:20:28.870777"
+	},
+	{
+		"_id": "2c6d9154-3d8f-4247-808a-1dd2a27be332",
+		"title": "Khoá học Lập trình 10",
+		"description": "Khoá học chi tiết về lập trình số 10.",
+		"instructorId": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"lessons": [
+			"20a6d5b2-481e-4b63-8f37-27c167779da9",
+			"3ef97519-85a6-408c-8208-826a19cf6d8e"
+		],
+		"resources": ["https://resource.example.com/10.pdf"],
+		"reviews": ["f3a3a36b-92f0-4a4c-b3d6-9ab6c7b396c4"],
+		"quizzes": ["3eb50391-b679-405a-80a5-fc4fdd9678b5"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+			"f67abd05-cd5b-49a9-8366-771ef91b16e1"
+		],
+		"createdAt": "2025-04-22T10:20:28.870784",
+		"updatedAt": "2024-10-08T10:20:28.870787"
+	},
+	{
+		"_id": "ce790be0-2e19-45da-ba52-542a10d76460",
+		"title": "Khoá học Lập trình 18",
+		"description": "Khoá học chi tiết về lập trình số 18.",
+		"instructorId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+		"lessons": [
+			"142b2d61-bba1-4ec2-857a-f3a680f1573e",
+			"a410f5b9-d5a7-4436-9777-87eac5c4029d"
+		],
+		"resources": ["https://resource.example.com/18.pdf"],
+		"reviews": [
+			"f3a3a36b-92f0-4a4c-b3d6-9ab6c7b396c4",
+			"0d78c7f5-7707-4467-a9c9-6b0c355d3517"
+		],
+		"quizzes": ["78fc92bb-1c8d-4ac5-a9f0-8bda306c6b42"],
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"users": [
+			"1566a962-511a-4e0b-adad-541dfe509604",
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176"
+		],
+		"createdAt": "2024-08-14T10:20:28.870792",
+		"updatedAt": "2025-06-02T10:20:28.870795"
+	},
+	{
+		"_id": "4774d74d-42cc-4fb1-8c28-f34ae8fb8379",
+		"title": "Khoá học Lập trình 19",
+		"description": "Khoá học chi tiết về lập trình số 19.",
+		"instructorId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+		"lessons": [
+			"c1d3f14b-0329-495c-8588-9fa2817f21f2",
+			"ad9e0be2-71f6-4ee9-bac7-7e1ad4c5ab16"
+		],
+		"resources": ["https://resource.example.com/19.pdf"],
+		"reviews": ["6a1893d0-dcad-4e60-9264-60bb0c86a7a5"],
+		"quizzes": ["3eb50391-b679-405a-80a5-fc4fdd9678b5"],
+		"category": "e01010a6-dceb-4620-b610-d9cb0067bbd0",
+		"users": [
+			"f67abd05-cd5b-49a9-8366-771ef91b16e1",
+			"1566a962-511a-4e0b-adad-541dfe509604"
+		],
+		"createdAt": "2024-11-01T10:20:28.870808",
+		"updatedAt": "2025-07-17T10:20:28.870811"
+	},
+	{
+		"_id": "6e0fc363-ca70-4ec9-8acc-afedffc1e561",
+		"title": "Khoá học Lập trình mở rộng 0",
+		"description": "Khoá học nâng cao dành cho lập trình viên 0.",
+		"instructorId": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"lessons": [
+			"96bac221-d20e-43b4-9b6b-188b103b54a5",
+			"0469ce97-8467-44d4-bb33-a933f61796be"
+		],
+		"resources": ["https://resource.example.com/extra0.pdf"],
+		"reviews": [
+			"998d89df-b862-41d5-a295-214dfd4ba1ed",
+			"0a23f854-7fc3-4907-b447-055893c5d5ee"
+		],
+		"quizzes": ["145a91e2-6c06-40a6-8d8b-9f8fc4f8c49c"],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": [
+			"684cc362-e3ee-40dc-99e5-16e94789c456",
+			"c1ac02a4-f951-4826-983c-63003b9afcf2",
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774"
+		],
+		"createdAt": "2025-06-28T10:32:21.744115",
+		"updatedAt": "2025-02-06T10:32:21.744135"
+	},
+	{
+		"_id": "c52256ca-bcc3-4a37-ab7b-a056d31aa675",
+		"title": "Khoá học Lập trình mở rộng 1",
+		"description": "Khoá học nâng cao dành cho lập trình viên 1.",
+		"instructorId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"lessons": [
+			"2278e5b4-5015-4de8-af27-b741f3d51fea",
+			"0469ce97-8467-44d4-bb33-a933f61796be"
+		],
+		"resources": ["https://resource.example.com/extra1.pdf"],
+		"reviews": [
+			"453219dc-2629-4bc7-b992-c9f7db0d13c3",
+			"998d89df-b862-41d5-a295-214dfd4ba1ed",
+			"1e6e66e8-341b-4c29-bc8c-b4cd404d2a39"
+		],
+		"quizzes": ["069d2357-53e8-4ef3-ba0e-8337b6ed8913"],
+		"category": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"users": [
+			"9f59b463-af5f-4492-8aad-393bc34429be",
+			"3e95a4cd-80f2-446e-9970-c50373c935e5",
+			"e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+			"bf206746-6902-4967-8ec9-15fa5e405e2d"
+		],
+		"createdAt": "2025-05-13T10:32:21.744196",
+		"updatedAt": "2025-01-22T10:32:21.744203"
+	},
+	{
+		"_id": "a8d8e21e-5d07-438d-82c5-010d1769441b",
+		"title": "Khoá học Lập trình mở rộng 2",
+		"description": "Khoá học nâng cao dành cho lập trình viên 2.",
+		"instructorId": "e97f6113-c52f-4397-9ccd-0d5f5b234be9",
+		"lessons": [
+			"6715a992-f35d-4bd2-a7a6-5f93fd40c24a",
+			"6295941c-c421-40d6-affa-5e04163b69ec"
+		],
+		"resources": ["https://resource.example.com/extra2.pdf"],
+		"reviews": ["b3f142b6-58a4-49e3-950f-cff6f23ceefe"],
+		"quizzes": [
+			"fcaa7acf-d8c5-4477-8e3d-2a03f8c0e802",
+			"d7a990d4-5c10-4e77-940e-042cd808bccb"
+		],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": [
+			"3e95a4cd-80f2-446e-9970-c50373c935e5",
+			"b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+			"c1ac02a4-f951-4826-983c-63003b9afcf2",
+			"bf206746-6902-4967-8ec9-15fa5e405e2d",
+			"e97f6113-c52f-4397-9ccd-0d5f5b234be9"
+		],
+		"createdAt": "2025-04-14T10:32:21.744235",
+		"updatedAt": "2025-06-08T10:32:21.744242"
+	},
+
+	{
+		"_id": "214ae92c-44a3-49e6-a67f-738e9b2314a7",
+		"title": "Khoá học Lập trình mở rộng 3",
+		"description": "Khoá học nâng cao dành cho lập trình viên 3.",
+		"instructorId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"lessons": [
+			"70e77b68-6c82-455a-a58a-26804066a0e4",
+			"bb2fdf62-4cf9-4bbd-a339-02fa6171b51c"
+		],
+		"resources": ["https://resource.example.com/extra3.pdf"],
+		"reviews": [
+			"6a1893d0-dcad-4e60-9264-60bb0c86a7a5",
+			"b3f142b6-58a4-49e3-950f-cff6f23ceefe"
+		],
+		"quizzes": ["016417ff-52b5-44e2-9f55-328ef0beb069"],
+		"category": "10594bae-672a-4ea8-bb2f-ab3c537a78b8",
+		"users": [
+			"c1ac02a4-f951-4826-983c-63003b9afcf2",
+			"430c4870-cf87-4e7c-93bd-caf710c73b5c"
+		],
+		"createdAt": "2024-08-23T10:32:21.744261",
+		"updatedAt": "2025-03-30T10:32:21.744264"
+	},
+	{
+		"_id": "acbc037e-2ad1-40d2-bcbd-2dc4ff554145",
+		"title": "Khoá học Lập trình mở rộng 4",
+		"description": "Khoá học nâng cao dành cho lập trình viên 4.",
+		"instructorId": "1566a962-511a-4e0b-adad-541dfe509604",
+		"lessons": [
+			"bb2fdf62-4cf9-4bbd-a339-02fa6171b51c",
+			"e4cb2a09-846c-4b56-a51d-3b2e6c3d8ad3"
+		],
+		"resources": ["https://resource.example.com/extra4.pdf"],
+		"reviews": ["1e6e66e8-341b-4c29-bc8c-b4cd404d2a39"],
+		"quizzes": ["d7a990d4-5c10-4e77-940e-042cd808bccb"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"1566a962-511a-4e0b-adad-541dfe509604",
+			"3e95a4cd-80f2-446e-9970-c50373c935e5"
+		],
+		"createdAt": "2025-05-30T10:32:21.744281",
+		"updatedAt": "2025-06-12T10:32:21.744284"
+	},
+	{
+		"_id": "4b2ad28a-0e92-4e03-8750-6a79dfb9fc37",
+		"title": "Khoá học Lập trình mở rộng 5",
+		"description": "Khoá học nâng cao dành cho lập trình viên 5.",
+		"instructorId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+		"lessons": [
+			"c1d3f14b-0329-495c-8588-9fa2817f21f2",
+			"2278e5b4-5015-4de8-af27-b741f3d51fea"
+		],
+		"resources": ["https://resource.example.com/extra5.pdf"],
+		"reviews": ["453219dc-2629-4bc7-b992-c9f7db0d13c3"],
+		"quizzes": ["fcaa7acf-d8c5-4477-8e3d-2a03f8c0e802"],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": [
+			"bf206746-6902-4967-8ec9-15fa5e405e2d",
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+			"684cc362-e3ee-40dc-99e5-16e94789c456"
+		],
+		"createdAt": "2024-10-04T10:32:21.744292",
+		"updatedAt": "2025-05-14T10:32:21.744295"
+	},
+	{
+		"title": "Khoá học Lập trình mở rộng 6",
+		"description": "Khoá học nâng cao dành cho lập trình viên 6.",
+		"instructorId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"lessons": [
+			"c11d22ec-539d-48b6-8b7d-3800e8a43233",
+			"d32a6265-8c2f-42c2-b97d-24f7209be2c3"
+		],
+		"resources": ["https://resource.example.com/extra6.pdf"],
+		"reviews": [
+			"88f5c1df-81b5-4896-a689-ea2bf960e80c",
+			"5ea22616-bf83-4aca-bf63-8c5a15a45329",
+			"998d89df-b862-41d5-a295-214dfd4ba1ed"
+		],
+		"quizzes": ["fcaa7acf-d8c5-4477-8e3d-2a03f8c0e802"],
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"users": ["3e95a4cd-80f2-446e-9970-c50373c935e5"],
+		"createdAt": "2024-10-14T10:32:21.744393",
+		"updatedAt": "2025-06-13T10:32:21.744400"
+	},
+	{
+		"title": "Khoá học Lập trình mở rộng 7",
+		"description": "Khoá học nâng cao dành cho lập trình viên 7.",
+		"instructorId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"lessons": [
+			"a51ed4c1-f29d-4257-b1de-271a7797d63c",
+			"6715a992-f35d-4bd2-a7a6-5f93fd40c24a"
+		],
+		"resources": ["https://resource.example.com/extra7.pdf"],
+		"reviews": [
+			"e80d5bf7-861d-4c22-8680-d6c4e6c17d57",
+			"7cbfe817-4aeb-473d-b31d-dda4e4a05f15",
+			"7ce6242a-7e5a-4f41-a635-04ee6cf751d7"
+		],
+		"quizzes": ["6c4a5e5c-0d11-48e1-b2a7-850077cc6068"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"1192ee80-b14e-4e63-ae91-6163b7e0a093",
+			"bf206746-6902-4967-8ec9-15fa5e405e2d",
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+			"f67abd05-cd5b-49a9-8366-771ef91b16e1"
+		],
+		"createdAt": "2025-05-08T10:32:21.744434",
+		"updatedAt": "2025-03-07T10:32:21.744441"
+	},
+	{
+		"title": "Khoá học Lập trình mở rộng 8",
+		"description": "Khoá học nâng cao dành cho lập trình viên 8.",
+		"instructorId": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+		"lessons": [
+			"ec017c50-484a-444b-8bea-785b95f9b41c",
+			"4570ec6d-5a47-4cbb-88b2-2e8028b999b8"
+		],
+		"resources": ["https://resource.example.com/extra8.pdf"],
+		"reviews": ["9d175bb8-83b9-4254-b2e4-cf1e6fd8fabd"],
+		"quizzes": [
+			"44ed441b-6fab-408a-a2c0-cee0e932702e",
+			"cd6680c8-d515-4b18-b580-d5f2ecec3c3e"
+		],
+		"category": "b96874af-2b12-4f29-b7a3-43b2e6b91dba",
+		"users": [
+			"914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+			"c1ac02a4-f951-4826-983c-63003b9afcf2"
+		],
+		"createdAt": "2025-03-22T10:32:21.744469",
+		"updatedAt": "2024-07-30T10:32:21.744475"
+	},
+	{
+		"_id": "5dcce262-f00e-42a1-93a5-27fc79d1a02b",
+		"title": "Khoá học Lập trình mở rộng 10",
+		"description": "Khoá học nâng cao dành cho lập trình viên 10.",
+		"instructorId": "1192ee80-b14e-4e63-ae91-6163b7e0a093",
+		"lessons": [
+			"ec017c50-484a-444b-8bea-785b95f9b41c",
+			"f8a972b8-6f45-437f-9556-1000ca8b38df"
+		],
+		"resources": ["https://resource.example.com/extra10.pdf"],
+		"reviews": ["458f5737-4266-451f-b5b5-82d4dcad676f"],
+		"quizzes": ["51ecaeec-fc99-4fbe-bf45-34dcfa6fbee2"],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": ["c1ac02a4-f951-4826-983c-63003b9afcf2"],
+		"createdAt": "2024-10-22T10:32:21.744533",
+		"updatedAt": "2024-12-01T10:32:21.744540"
+	},
+	{
+		"_id": "9bab1bee-1269-4911-8bbb-dc27a57ed349",
+		"title": "Khoá học Lập trình mở rộng 11",
+		"description": "Khoá học nâng cao dành cho lập trình viên 11.",
+		"instructorId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+		"lessons": [
+			"d3cb9e7c-cf5e-4a29-a945-0798d92e04a3",
+			"8e803224-a3ae-43ea-aa24-748945a38529"
+		],
+		"resources": ["https://resource.example.com/extra11.pdf"],
+		"reviews": [
+			"453219dc-2629-4bc7-b992-c9f7db0d13c3",
+			"458f5737-4266-451f-b5b5-82d4dcad676f"
+		],
+		"quizzes": [
+			"247f51bd-b212-48cf-8778-94e05d8c304e",
+			"069d2357-53e8-4ef3-ba0e-8337b6ed8913"
+		],
+		"category": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"users": ["b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a"],
+		"createdAt": "2024-11-25T10:32:21.744565",
+		"updatedAt": "2024-09-01T10:32:21.744572"
+	},
+	{
+		"_id": "f3b2f978-84e2-407e-8693-74bad402191c",
+		"title": "Khoá học Lập trình mở rộng 13",
+		"description": "Khoá học nâng cao dành cho lập trình viên 13.",
+		"instructorId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"lessons": [
+			"4570ec6d-5a47-4cbb-88b2-2e8028b999b8",
+			"ebe5e795-d8ac-4432-a1e1-3ba750fada5d"
+		],
+		"resources": ["https://resource.example.com/extra13.pdf"],
+		"reviews": [
+			"0a23f854-7fc3-4907-b447-055893c5d5ee",
+			"458f5737-4266-451f-b5b5-82d4dcad676f"
+		],
+		"quizzes": [
+			"51ecaeec-fc99-4fbe-bf45-34dcfa6fbee2",
+			"247f51bd-b212-48cf-8778-94e05d8c304e"
+		],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"deceb263-b543-4525-ae21-9b7eeb5cc43c",
+			"2f216ccc-af11-4ad9-a34b-1b3484bb978e",
+			"e97f6113-c52f-4397-9ccd-0d5f5b234be9",
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+			"eba62f6b-d3be-45c5-befc-3584f8c416a8"
+		],
+		"createdAt": "2024-11-11T10:32:21.744630",
+		"updatedAt": "2024-12-26T10:32:21.744634"
+	},
+	{
+		"_id": "8057ec78-57e5-4c73-ab9f-cbc37d2285be",
+		"title": "Khoá học Lập trình mở rộng 14",
+		"description": "Khoá học nâng cao dành cho lập trình viên 14.",
+		"instructorId": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+		"lessons": [
+			"056f357c-e766-4b45-9608-08b8c8912845",
+			"e6d41609-ff4b-4f76-9c65-28c8cee31da8"
+		],
+		"resources": ["https://resource.example.com/extra14.pdf"],
+		"reviews": [
+			"9d175bb8-83b9-4254-b2e4-cf1e6fd8fabd",
+			"b3f142b6-58a4-49e3-950f-cff6f23ceefe",
+			"14a8659c-9c79-4394-946f-75fc69705406"
+		],
+		"quizzes": [
+			"51ecaeec-fc99-4fbe-bf45-34dcfa6fbee2",
+			"59bb4fc5-556b-4acf-a865-f4afa89fbaab"
+		],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": [
+			"4ea68116-0b15-4112-b512-7b50347db047",
+			"914390a6-a4f6-485d-a26c-e1fb50b4ca84"
+		],
+		"createdAt": "2025-06-27T10:32:21.744651",
+		"updatedAt": "2024-11-28T10:32:21.744654"
+	},
+	{
+		"_id": "48eb8779-9389-41bb-882f-b0760f3e07e1",
+		"title": "Khoá học Lập trình mở rộng 17",
+		"description": "Khoá học nâng cao dành cho lập trình viên 17.",
+		"instructorId": "2f216ccc-af11-4ad9-a34b-1b3484bb978e",
+		"lessons": [
+			"dd328381-feab-4181-b068-870b27909dcc",
+			"4d370360-d239-4e55-be42-6c1b799831f8"
+		],
+		"resources": ["https://resource.example.com/extra17.pdf"],
+		"reviews": ["4509f246-373a-42a2-a2cf-cf1ceb04333b"],
+		"quizzes": ["6c4a5e5c-0d11-48e1-b2a7-850077cc6068"],
+		"category": "fe2c5cc5-48a6-4a0a-a5b4-f22609bcd3c7",
+		"users": [
+			"9f59b463-af5f-4492-8aad-393bc34429be",
+			"bf206746-6902-4967-8ec9-15fa5e405e2d"
+		],
+		"createdAt": "2024-11-27T10:32:21.744711",
+		"updatedAt": "2025-07-11T10:32:21.744714"
+	},
+	{
+		"_id": "cefd2b18-0d54-4521-bc04-15c59840c561",
+		"title": "Khoá học Lập trình mở rộng 18",
+		"description": "Khoá học nâng cao dành cho lập trình viên 18.",
+		"instructorId": "9f59b463-af5f-4492-8aad-393bc34429be",
+		"lessons": [
+			"e45156ad-632b-4323-bc91-51daf31e99d2",
+			"7687505d-7d79-4899-992d-262dd1e9e967"
+		],
+		"resources": ["https://resource.example.com/extra18.pdf"],
+		"reviews": [
+			"9d175bb8-83b9-4254-b2e4-cf1e6fd8fabd",
+			"88b0f934-d4a7-4d82-80b6-9fc6ed9b882f",
+			"453219dc-2629-4bc7-b992-c9f7db0d13c3"
+		],
+		"quizzes": [
+			"51ecaeec-fc99-4fbe-bf45-34dcfa6fbee2",
+			"6c4a5e5c-0d11-48e1-b2a7-850077cc6068"
+		],
+		"category": "8ea2302c-2e37-4dd1-b377-adba4dc961d7",
+		"users": [
+			"e97f6113-c52f-4397-9ccd-0d5f5b234be9",
+			"470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+			"f67abd05-cd5b-49a9-8366-771ef91b16e1"
+		],
+		"createdAt": "2024-10-22T10:32:21.744732",
+		"updatedAt": "2025-06-15T10:32:21.744736"
+	},
+	{
+		"_id": "24472370-c895-479d-94f0-e5cf32f2257c",
+		"title": "Khoá học Lập trình mở rộng 19",
+		"description": "Khoá học nâng cao dành cho lập trình viên 19.",
+		"instructorId": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"lessons": [
+			"056f357c-e766-4b45-9608-08b8c8912845",
+			"07827b3e-e6ea-45de-a9e7-b12e4e9fe44f"
+		],
+		"resources": ["https://resource.example.com/extra19.pdf"],
+		"reviews": ["14a8659c-9c79-4394-946f-75fc69705406"],
+		"quizzes": ["fcaa7acf-d8c5-4477-8e3d-2a03f8c0e802"],
+		"category": "b7e6a2b6-97ff-40d4-b81c-26d77ea38662",
+		"users": [
+			"c1ac02a4-f951-4826-983c-63003b9afcf2",
+			"1ee2ce56-5374-4321-a0e8-6d8e1013b176"
+		],
+		"createdAt": "2024-12-19T10:32:21.744750",
+		"updatedAt": "2025-06-30T10:32:21.744753"
+	}
+]

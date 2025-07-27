@@ -1,0 +1,829 @@
+[
+	{
+		"_id": "1657e4dd-8deb-43cc-baea-5f34155c5498",
+		"questionText": "Câu hỏi số 1: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["51bb24ae-d4dc-4e23-8653-4bd3651f1620"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.647455",
+		"updatedAt": "2025-07-20T10:58:39.647466"
+	},
+	{
+		"_id": "0e083913-567a-43e4-a27d-cde29a706d5b",
+		"questionText": "Câu hỏi số 2: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["5498af9e-2272-477d-87b2-f26e1eba632f"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.647574",
+		"updatedAt": "2025-07-20T10:58:39.647579"
+	},
+	{
+		"_id": "b19de931-fe3a-409f-a972-192f36e2c891",
+		"questionText": "Câu hỏi số 3: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["7f5c97e3-e8d2-4e1d-b7ea-3859b7d68497"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.647839",
+		"updatedAt": "2025-07-20T10:58:39.647851"
+	},
+	{
+		"_id": "5fb54555-959e-46bf-9ceb-d5aab8d8cf92",
+		"questionText": "Câu hỏi số 4: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["0fa2554c-57e8-42a1-a6d5-7d0b62f3cd3e"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.648178",
+		"updatedAt": "2025-07-20T10:58:39.648184"
+	},
+	{
+		"_id": "73e48369-13ce-4e53-a612-7d845af2f5b6",
+		"questionText": "Câu hỏi số 6: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.648850",
+		"updatedAt": "2025-07-20T10:58:39.648857"
+	},
+	{
+		"_id": "744f1a6d-bfba-45c6-bf25-8f6e526da878",
+		"questionText": "Câu hỏi số 7: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["048e79b8-3c9c-4f46-a073-2b708f9d077c"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.648895",
+		"updatedAt": "2025-07-20T10:58:39.648900"
+	},
+	{
+		"_id": "e9d4c985-4a21-4df8-81df-7a0478486a35",
+		"questionText": "Câu hỏi số 8: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["434c8664-1ccf-46d1-8e4e-dd4d30164848"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.648952",
+		"updatedAt": "2025-07-20T10:58:39.648957"
+	},
+	{
+		"_id": "90b1e84c-3b4d-43d8-a705-c271534265e3",
+		"questionText": "Câu hỏi số 9: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["3a733aa4-99d7-4a4c-8c2c-6aaf30382618"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649006",
+		"updatedAt": "2025-07-20T10:58:39.649010"
+	},
+	{
+		"_id": "274fae34-a718-4fd6-9c75-dc41970c4c68",
+		"questionText": "Câu hỏi số 10: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["37bd9f54-0296-4eb9-b595-80ff392d3369"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649079",
+		"updatedAt": "2025-07-20T10:58:39.649084"
+	},
+	{
+		"_id": "4cae6e1a-068d-4885-bc5e-ea7bec1fc194",
+		"questionText": "Câu hỏi số 11: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["e470ec08-a243-4234-b79c-4b48e3d8d269"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649135",
+		"updatedAt": "2025-07-20T10:58:39.649139"
+	},
+	{
+		"_id": "5a00858e-6130-4865-bc6e-03821efe7de6",
+		"questionText": "Câu hỏi số 12: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["434c8664-1ccf-46d1-8e4e-dd4d30164848"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649196",
+		"updatedAt": "2025-07-20T10:58:39.649200"
+	},
+	{
+		"_id": "23736df5-1108-471e-8a56-d7207d623ef5",
+		"questionText": "Câu hỏi số 13: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["0a91d177-a3ec-42e4-8d5b-e23e06c6ef80"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649239",
+		"updatedAt": "2025-07-20T10:58:39.649244"
+	},
+	{
+		"_id": "bfcb-ff34-4875-a854-f660ac3f6835",
+		"questionText": "Câu hỏi số 14: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["674c1ac8-c8a4-4a0a-bcf9-a419b625c932"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649285",
+		"updatedAt": "2025-07-20T10:58:39.649289"
+	},
+	{
+		"_id": "d7197455-084c-4f1b-bdd3-db8f472e9711",
+		"questionText": "Câu hỏi số 15: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["ef917e93-55cf-41c7-901b-c99237401481"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649335",
+		"updatedAt": "2025-07-20T10:58:39.649340"
+	},
+	{
+		"_id": "ee41fc0c-e0d5-400e-9930-49be40b4f1f5",
+		"questionText": "Câu hỏi số 16: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649398",
+		"updatedAt": "2025-07-20T10:58:39.649403"
+	},
+	{
+		"_id": "c9b7f9f9-efea-4c32-ae54-eb318ac93013",
+		"questionText": "Câu hỏi số 17: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["ef917e93-55cf-41c7-901b-c99237401481"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649458",
+		"updatedAt": "2025-07-20T10:58:39.649462"
+	},
+	{
+		"_id": "3c282602-a9cc-4967-a612-c79a6581a624",
+		"questionText": "Câu hỏi số 18: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["ef917e93-55cf-41c7-901b-c99237401481"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649512",
+		"updatedAt": "2025-07-20T10:58:39.649517"
+	},
+	{
+		"_id": "3d204115-240c-4a4d-b3e5-3e3aff3824fb",
+		"questionText": "Câu hỏi số 19: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["79c3bbab-b966-45a7-b038-af772672dabf"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649550",
+		"updatedAt": "2025-07-20T10:58:39.649555"
+	},
+	{
+		"_id": "6ffb77f1-7b5d-4235-aeb1-515242d11e03",
+		"questionText": "Câu hỏi số 20: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["8dc50f8d-52a6-4f0e-b0d5-ee77cf6a8278"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649596",
+		"updatedAt": "2025-07-20T10:58:39.649600"
+	},
+	{
+		"_id": "8889887c-6571-4f03-9864-079e7aa5e65f",
+		"questionText": "Câu hỏi số 21: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["a9e9d2f9-d2b7-47cf-b224-4604848fb05d"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649640",
+		"updatedAt": "2025-07-20T10:58:39.649644"
+	},
+	{
+		"_id": "1c1b6e5a-6653-4a72-95ff-b45035fcf733",
+		"questionText": "Câu hỏi số 22: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["a9e9d2f9-d2b7-47cf-b224-4604848fb05d"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649680",
+		"updatedAt": "2025-07-20T10:58:39.649684"
+	},
+
+	{
+		"_id": "e6974e12-6976-4608-b0a6-c2cf3ca1af9d",
+		"questionText": "Câu hỏi số 23: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["9856cf50-9bcc-4d21-b4e2-2725ce32c105"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649739",
+		"updatedAt": "2025-07-20T10:58:39.649744"
+	},
+	{
+		"_id": "c2421596-2ce6-4681-b20f-8097fcd9fc44",
+		"questionText": "Câu hỏi số 24: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["79c3bbab-b966-45a7-b038-af772672dabf"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649787",
+		"updatedAt": "2025-07-20T10:58:39.649791"
+	},
+	{
+		"_id": "f5eaea9a-f59c-4ed9-a689-b585821c3c4f",
+		"questionText": "Câu hỏi số 25: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["79c3bbab-b966-45a7-b038-af772672dabf"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649839",
+		"updatedAt": "2025-07-20T10:58:39.649843"
+	},
+	{
+		"_id": "9f11c4c7-9df6-4f05-891b-89ce0c2bdfbb",
+		"questionText": "Câu hỏi số 26: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["79c3bbab-b966-45a7-b038-af772672dabf"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649884",
+		"updatedAt": "2025-07-20T10:58:39.649888"
+	},
+	{
+		"_id": "b5a6-7fee29518ade",
+		"questionText": "Câu hỏi số 27: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["a9e9d2f9-d2b7-47cf-b224-4604848fb05d"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.649926",
+		"updatedAt": "2025-07-20T10:58:39.649931"
+	},
+	{
+		"_id": "afc10ae4-0b99-4cdb-9f73-19ec4fe666a3",
+		"questionText": "Câu hỏi số 28: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["cfa48a56-5624-4a6c-8bf2-dccd423d4e75"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.649971",
+		"updatedAt": "2025-07-20T10:58:39.649976"
+	},
+	{
+		"_id": "659994c2-4380-442e-961f-fc12ca5f6816",
+		"questionText": "Câu hỏi số 29: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["fd70749b-fed0-4e78-a083-633125af7af7"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650029",
+		"updatedAt": "2025-07-20T10:58:39.650034"
+	},
+	{
+		"_id": "ed390e4a-9a72-406d-8593-2563cbf0e8a7",
+		"questionText": "Câu hỏi số 30: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["086c975f-c3b1-465f-8865-454114993edc"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650075",
+		"updatedAt": "2025-07-20T10:58:39.650079"
+	},
+	{
+		"_id": "0708d7d9-5c48-4c36-8105-bcdb248aabc2",
+		"questionText": "Câu hỏi số 31: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["40fff6c1-7de3-4089-9d2e-74814ec02008"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650315",
+		"updatedAt": "2025-07-20T10:58:39.650320"
+	},
+	{
+		"_id": "cb4a9a96-427c-4651-a498-163837413baa",
+		"questionText": "Câu hỏi số 32: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["96e44195-8dcf-4107-8e01-f1da310c961c"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650387",
+		"updatedAt": "2025-07-20T10:58:39.650392"
+	},
+	{
+		"_id": "0bfcbec1-463e-42c3-a83d-99fa1392dab1",
+		"questionText": "Câu hỏi số 33: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["bce32a1e-d834-4090-b762-00e5b6935b81"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650436",
+		"updatedAt": "2025-07-20T10:58:39.650440"
+	},
+	{
+		"_id": "d83a83cb-fae4-4fd7-bc65-c51580c0dec6",
+		"questionText": "Câu hỏi số 34: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["5498af9e-2272-477d-87b2-f26e1eba632f"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650491",
+		"updatedAt": "2025-07-20T10:58:39.650496"
+	},
+	{
+		"_id": "57f73a8a-983e-4537-b072-30603a851bb2",
+		"questionText": "Câu hỏi số 35: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["e470ec08-a243-4234-b79c-4b48e3d8d269"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650537",
+		"updatedAt": "2025-07-20T10:58:39.650541"
+	},
+	{
+		"_id": "255cefc2-e8d0-4f17-b2a0-f261ae61aa5f",
+		"questionText": "Câu hỏi số 36: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["f064b0ba-640f-4df3-9382-5e9aeb9025aa"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650585",
+		"updatedAt": "2025-07-20T10:58:39.650590"
+	},
+	{
+		"_id": "ccbd389a-7aaf-4a92-916a-670733d48f2a",
+		"questionText": "Câu hỏi số 37: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["37bd9f54-0296-4eb9-b595-80ff392d3369"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650636",
+		"updatedAt": "2025-07-20T10:58:39.650640"
+	},
+	{
+		"_id": "95b37006-e326-4720-8d16-e22128b448bc",
+		"questionText": "Câu hỏi số 38: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["8dc50f8d-52a6-4f0e-b0d5-ee77cf6a8278"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650678",
+		"updatedAt": "2025-07-20T10:58:39.650682"
+	},
+	{
+		"_id": "c9041e10-198b-41c3-b262-a206f89ed7f9",
+		"questionText": "Câu hỏi số 39: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["4f984f61-123e-4b56-b4e0-2af58d2c85cf"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650729",
+		"updatedAt": "2025-07-20T10:58:39.650734"
+	},
+	{
+		"_id": "2a3c6aa1-f3ff-4bde-8d5b-cb1432a3aeb4",
+		"questionText": "Câu hỏi số 40: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["cfa48a56-5624-4a6c-8bf2-dccd423d4e75"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650777",
+		"updatedAt": "2025-07-20T10:58:39.650782"
+	},
+	{
+		"_id": "b38e9cd1-fd3e-47e3-be20-03c86bb41714",
+		"questionText": "Câu hỏi số 41: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["8dc50f8d-52a6-4f0e-b0d5-ee77cf6a8278"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.650825",
+		"updatedAt": "2025-07-20T10:58:39.650830"
+	},
+	{
+		"_id": "47cebd83-c67b-41c7-a0d0-e6a38e7fcfdf",
+		"questionText": "Câu hỏi số 42: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["f69cda1f-84b1-4c78-bf80-e6fdc1f18c9c"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650870",
+		"updatedAt": "2025-07-20T10:58:39.650875"
+	},
+	{
+		"_id": "7cdd966a-7f1b-411a-9e10-81d7123f48df",
+		"questionText": "Câu hỏi số 43: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.650932",
+		"updatedAt": "2025-07-20T10:58:39.650936"
+	},
+	{
+		"_id": "9af6b8c6-93c5-40cd-bdbc-350f795c06cb",
+		"questionText": "Câu hỏi số 45: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["0fa2554c-57e8-42a1-a6d5-7d0b62f3cd3e"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651134",
+		"updatedAt": "2025-07-20T10:58:39.651138"
+	},
+	{
+		"_id": "71e5c3db-4461-4425-9658-e073aedbb3bc",
+		"questionText": "Câu hỏi số 46: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["51bb24ae-d4dc-4e23-8653-4bd3651f1620"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651175",
+		"updatedAt": "2025-07-20T10:58:39.651178"
+	},
+	{
+		"_id": "54eb1b50-b767-4a58-a644-16903b8c9695",
+		"questionText": "Câu hỏi số 47: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["0a91d177-a3ec-42e4-8d5b-e23e06c6ef80"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651215",
+		"updatedAt": "2025-07-20T10:58:39.651219"
+	},
+	{
+		"_id": "3efd6321-16b9-43d0-84e5-26c429cf1223",
+		"questionText": "Câu hỏi số 48: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["51bb24ae-d4dc-4e23-8653-4bd3651f1620"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651250",
+		"updatedAt": "2025-07-20T10:58:39.651255"
+	},
+	{
+		"_id": "6e2c8d8b-4378-4d3c-8adc-4d306e745b7e",
+		"questionText": "Câu hỏi số 49: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651318",
+		"updatedAt": "2025-07-20T10:58:39.651322"
+	},
+	{
+		"_id": "6aa6c9c6-626e-4ac3-b951-8bc80de3d372",
+		"questionText": "Câu hỏi số 50: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["048e79b8-3c9c-4f46-a073-2b708f9d077c"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651376",
+		"updatedAt": "2025-07-20T10:58:39.651380"
+	},
+	{
+		"_id": "378c06d3-f428-454b-8e8e-75f9d59a6b8d",
+		"questionText": "Câu hỏi số 51: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651433",
+		"updatedAt": "2025-07-20T10:58:39.651437"
+	},
+	{
+		"_id": "f272511b-e02d-4812-8981-6fbd1cf554c8",
+		"questionText": "Câu hỏi số 52: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["e470ec08-a243-4234-b79c-4b48e3d8d269"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651487",
+		"updatedAt": "2025-07-20T10:58:39.651491"
+	},
+	{
+		"_id": "53b63cf4-8977-41e9-b46b-9e94e2e409e6",
+		"questionText": "Câu hỏi số 53: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["8dc50f8d-52a6-4f0e-b0d5-ee77cf6a8278"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651531",
+		"updatedAt": "2025-07-20T10:58:39.651535"
+	},
+	{
+		"_id": "c808e91e-e23b-44cf-9267-11adafc863e8",
+		"questionText": "Câu hỏi số 54: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651652",
+		"updatedAt": "2025-07-20T10:58:39.651670"
+	},
+	{
+		"_id": "ed01e60e-de23-422b-82d8-a760f6578a14",
+		"questionText": "Câu hỏi số 55: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": true }
+		],
+		"quizId": ["5498af9e-2272-477d-87b2-f26e1eba632f"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651739",
+		"updatedAt": "2025-07-20T10:58:39.651744"
+	},
+	{
+		"_id": "1f885eae-115c-48c6-b671-beda22323b36",
+		"questionText": "Câu hỏi số 56: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["434c8664-1ccf-46d1-8e4e-dd4d30164848"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651801",
+		"updatedAt": "2025-07-20T10:58:39.651806"
+	},
+	{
+		"_id": "4ae06240-d3e5-41d6-a043-d33d75952d7c",
+		"questionText": "Câu hỏi số 57: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": true },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["f69cda1f-84b1-4c78-bf80-e6fdc1f18c9c"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.651861",
+		"updatedAt": "2025-07-20T10:58:39.651865"
+	},
+	{
+		"_id": "1e99ad65-d6b4-4ba3-b167-8212d2ad9c42",
+		"questionText": "Câu hỏi số 58: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": false },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["29bfe071-e4ee-4b34-9a34-d07f76801fbc"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651898",
+		"updatedAt": "2025-07-20T10:58:39.651900"
+	},
+	{
+		"_id": "8d1bf78d-e696-466c-90e3-885e6157abfd",
+		"questionText": "Câu hỏi số 59: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["18e33b37-3167-481b-bdbd-1d27e6563691"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651926",
+		"updatedAt": "2025-07-20T10:58:39.651929"
+	},
+	{
+		"_id": "e3ec2529-e8f8-41bc-8e76-0f64b1d3a9e8",
+		"questionText": "Câu hỏi số 60: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": false },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["e0e8b6c4-f182-4c54-8b90-fffc19c6a1d1"],
+		"questionType": ["single_choice"],
+		"createdAt": "2025-07-20T10:58:39.651973",
+		"updatedAt": "2025-07-20T10:58:39.651976"
+	},
+	{
+		"_id": "eaead4b6-7b36-468f-9218-56b3c58b2275",
+		"questionText": "Câu hỏi số 61: Đây là nội dung câu hỏi lập trình?",
+		"answers": [
+			{ "answerText": "Phương án 1", "isCorrect": true },
+			{ "answerText": "Phương án 2", "isCorrect": true },
+			{ "answerText": "Phương án 3", "isCorrect": false },
+			{ "answerText": "Phương án 4", "isCorrect": false }
+		],
+		"quizId": ["96e44195-8dcf-4107-8e01-f1da310c961c"],
+		"questionType": ["multiple_choice"],
+		"createdAt": "2025-07-20T10:58:39.652000",
+		"updatedAt": "2025-07-20T10:58:39.652003"
+	}
+]

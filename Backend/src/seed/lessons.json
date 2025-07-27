@@ -1,0 +1,442 @@
+[
+	{
+		"_id": "0591a294-1762-460d-afc7-ac7a609efacf",
+		"title": "Bài học 1: Giới thiệu lập trình",
+		"content": "Nội dung bài học 1 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f3b2f978-84e2-407e-8693-74bad402191c",
+		"resources": ["https://resources.example.com/lesson-1.pdf"],
+		"createdAt": "2025-07-20T10:46:09.716234",
+		"updatedAt": "2025-07-20T10:46:09.716243"
+	},
+	{
+		"_id": "b6a3a9f9-214c-4a92-bda5-2848386d1ba3",
+		"title": "Bài học 2: Giới thiệu lập trình",
+		"content": "Nội dung bài học 2 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f27e8b1b-a84e-4108-96a1-480f4bb029e4",
+		"resources": ["https://resources.example.com/lesson-2.pdf"],
+		"createdAt": "2025-07-20T10:46:09.716747",
+		"updatedAt": "2025-07-20T10:46:09.716759"
+	},
+	{
+		"_id": "375b8933-0a49-4b5a-91c3-5d2484a0e790",
+		"title": "Bài học 3: Giới thiệu lập trình",
+		"content": "Nội dung bài học 3 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "74b0b6b2-2519-4a2e-9073-7d606dbb71a6",
+		"resources": ["https://resources.example.com/lesson-3.pdf"],
+		"createdAt": "2025-07-20T10:46:09.717283",
+		"updatedAt": "2025-07-20T10:46:09.717294"
+	},
+	{
+		"_id": "d499f943-7969-4d1a-a0fe-cc863647ee78",
+		"title": "Bài học 4: Giới thiệu lập trình",
+		"content": "Nội dung bài học 4 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f27e8b1b-a84e-4108-96a1-480f4bb029e4",
+		"resources": ["https://resources.example.com/lesson-4.pdf"],
+		"createdAt": "2025-07-20T10:46:09.717418",
+		"updatedAt": "2025-07-20T10:46:09.717429"
+	},
+	{
+		"_id": "db672085-1e65-402c-80a5-34581a6da3b2",
+		"title": "Bài học 5: Giới thiệu lập trình",
+		"content": "Nội dung bài học 5 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "e4cdb168-62e2-4c7b-871c-606cb0f282c1",
+		"resources": ["https://resources.example.com/lesson-5.pdf"],
+		"createdAt": "2025-07-20T10:46:09.717573",
+		"updatedAt": "2025-07-20T10:46:09.717577"
+	},
+	{
+		"_id": "b6a3a9f9-214c-4a92-bda5-2848386d1ba3",
+		"title": "Bài học 7: Giới thiệu lập trình",
+		"content": "Nội dung bài học 7 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f27e8b1b-a84e-4108-96a1-480f4bb029e4",
+		"resources": ["https://resources.example.com/lesson-7.pdf"],
+		"createdAt": "2025-07-20T10:46:09.717888",
+		"updatedAt": "2025-07-20T10:46:09.717894"
+	},
+	{
+		"_id": "4a2472a0-3841-4177-83db-e55bfe128da9",
+		"title": "Bài học 8: Giới thiệu lập trình",
+		"content": "Nội dung bài học 8 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "b5878990-b73a-4500-9fa0-06f7cadf8962",
+		"resources": ["https://resources.example.com/lesson-8.pdf"],
+		"createdAt": "2025-07-20T10:46:09.717997",
+		"updatedAt": "2025-07-20T10:46:09.718010"
+	},
+	{
+		"_id": "27407ad4-eb18-4995-9adb-2babadc20e3a",
+		"title": "Bài học 9: Giới thiệu lập trình",
+		"content": "Nội dung bài học 9 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"resources": ["https://resources.example.com/lesson-9.pdf"],
+		"createdAt": "2025-07-20T10:46:09.718200",
+		"updatedAt": "2025-07-20T10:46:09.718205"
+	},
+	{
+		"_id": "599cd606-aab8-4278-b62d-eb936c17b5a3",
+		"title": "Bài học 10: Giới thiệu lập trình",
+		"content": "Nội dung bài học 10 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-10.pdf"],
+		"createdAt": "2025-07-20T10:46:09.718847",
+		"updatedAt": "2025-07-20T10:46:09.718856"
+	},
+	{
+		"_id": "1a6704b2-71c5-4f13-adf6-fc1e4e6672a4",
+		"title": "Bài học 11: Giới thiệu lập trình",
+		"content": "Nội dung bài học 11 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "5dcce262-f00e-42a1-93a5-27fc79d1a02b",
+		"resources": ["https://resources.example.com/lesson-11.pdf"],
+		"createdAt": "2025-07-20T10:46:09.718893",
+		"updatedAt": "2025-07-20T10:46:09.718897"
+	},
+	{
+		"_id": "bd89ce61-0a14-4b32-a05d-4120e797889d",
+		"title": "Bài học 16: Giới thiệu lập trình",
+		"content": "Nội dung bài học 16 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-16.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719174",
+		"updatedAt": "2025-07-20T10:46:09.719178"
+	},
+	{
+		"_id": "ac828bd6-bcfb-4867-9e86-ba5d62bc6340",
+		"title": "Bài học 17: Giới thiệu lập trình",
+		"content": "Nội dung bài học 17 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "dbb28296-a07b-4349-9ebf-a3533f64588a",
+		"resources": ["https://resources.example.com/lesson-17.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719200",
+		"updatedAt": "2025-07-20T10:46:09.719203"
+	},
+	{
+		"_id": "6519115f-7fda-41a8-9224-53d70b3cfc6b",
+		"title": "Bài học 18: Giới thiệu lập trình",
+		"content": "Nội dung bài học 18 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "9bab1bee-1269-4911-8bbb-dc27a57ed349",
+		"resources": ["https://resources.example.com/lesson-18.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719220",
+		"updatedAt": "2025-07-20T10:46:09.719223"
+	},
+	{
+		"_id": "9db12058-d27e-48b8-b001-d7b0ef766c7a",
+		"title": "Bài học 19: Giới thiệu lập trình",
+		"content": "Nội dung bài học 19 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "24472370-c895-479d-94f0-e5cf32f2257c",
+		"resources": ["https://resources.example.com/lesson-19.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719339",
+		"updatedAt": "2025-07-20T10:46:09.719350"
+	},
+	{
+		"_id": "4cf7d70c-a234-4736-9bb4-15d77c0fbf62",
+		"title": "Bài học 20: Giới thiệu lập trình",
+		"content": "Nội dung bài học 20 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "e385074a-9623-48b7-a873-904c17c1f784",
+		"resources": ["https://resources.example.com/lesson-20.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719424",
+		"updatedAt": "2025-07-20T10:46:09.719428"
+	},
+	{
+		"title": "Bài học 22: Giới thiệu lập trình",
+		"content": "Nội dung bài học 22 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"resources": ["https://resources.example.com/lesson-22.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719632",
+		"updatedAt": "2025-07-20T10:46:09.719634"
+	},
+	{
+		"_id": "8ba6b71a-40e7-4b98-809c-381b06432ee8",
+		"title": "Bài học 23: Giới thiệu lập trình",
+		"content": "Nội dung bài học 23 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "6e0fc363-ca70-4ec9-8acc-afedffc1e561",
+		"resources": ["https://resources.example.com/lesson-23.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719656",
+		"updatedAt": "2025-07-20T10:46:09.719658"
+	},
+	{
+		"_id": "786e9a15-6c98-43e2-863f-1d7bd4998f14",
+		"title": "Bài học 24: Giới thiệu lập trình",
+		"content": "Nội dung bài học 24 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"resources": ["https://resources.example.com/lesson-24.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719670",
+		"updatedAt": "2025-07-20T10:46:09.719672"
+	},
+	{
+		"_id": "e5117a60-36e5-42b3-83ed-2622986826ff",
+		"title": "Bài học 25: Giới thiệu lập trình",
+		"content": "Nội dung bài học 25 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "ea9ad142-7184-4f8c-89bd-585986fb51b3",
+		"resources": ["https://resources.example.com/lesson-25.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719683",
+		"updatedAt": "2025-07-20T10:46:09.719685"
+	},
+	{
+		"_id": "3accb10a-ca6a-48f9-8d96-4f2ff48e57ff",
+		"title": "Bài học 26: Giới thiệu lập trình",
+		"content": "Nội dung bài học 26 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-26.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719695",
+		"updatedAt": "2025-07-20T10:46:09.719697"
+	},
+	{
+		"_id": "d93da7f8-d4bd-4c97-b6b3-b40e3d073381",
+		"title": "Bài học 27: Giới thiệu lập trình",
+		"content": "Nội dung bài học 27 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "74b0b6b2-2519-4a2e-9073-7d606dbb71a6",
+		"resources": ["https://resources.example.com/lesson-27.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719707",
+		"updatedAt": "2025-07-20T10:46:09.719710"
+	},
+	{
+		"_id": "8bd5981d-d0aa-44f4-b1ab-9a4895288404",
+		"title": "Bài học 28: Giới thiệu lập trình",
+		"content": "Nội dung bài học 28 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f3b2f978-84e2-407e-8693-74bad402191c",
+		"resources": ["https://resources.example.com/lesson-28.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719729",
+		"updatedAt": "2025-07-20T10:46:09.719731"
+	},
+	{
+		"_id": "47c37059-9abe-4c22-b47d-ee995b81275a",
+		"title": "Bài học 30: Giới thiệu lập trình",
+		"content": "Nội dung bài học 30 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+		"resources": ["https://resources.example.com/lesson-30.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719751",
+		"updatedAt": "2025-07-20T10:46:09.719753"
+	},
+	{
+		"_id": "146c92ee-ebe8-4ae8-bc82-94bb1347e0fc",
+		"title": "Bài học 31: Giới thiệu lập trình",
+		"content": "Nội dung bài học 31 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "5dcce262-f00e-42a1-93a5-27fc79d1a02b",
+		"resources": ["https://resources.example.com/lesson-31.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719763",
+		"updatedAt": "2025-07-20T10:46:09.719765"
+	},
+	{
+		"_id": "26bbe9f7-f577-4737-9f22-ec62a3bacb74",
+		"title": "Bài học 32: Giới thiệu lập trình",
+		"content": "Nội dung bài học 32 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "2a231da5-742a-4c6c-9cd3-feda31d5acde",
+		"resources": ["https://resources.example.com/lesson-32.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719790",
+		"updatedAt": "2025-07-20T10:46:09.719792"
+	},
+	{
+		"_id": "59dd2acb-611e-42a0-bd3d-bd79cda7d1f0",
+		"title": "Bài học 33: Giới thiệu lập trình",
+		"content": "Nội dung bài học 33 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+		"resources": ["https://resources.example.com/lesson-33.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719803",
+		"updatedAt": "2025-07-20T10:46:09.719805"
+	},
+	{
+		"_id": "1ccffe56-5f2e-4d77-ab49-a874a32d0de4",
+		"title": "Bài học 34: Giới thiệu lập trình",
+		"content": "Nội dung bài học 34 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "8057ec78-57e5-4c73-ab9f-cbc37d2285be",
+		"resources": ["https://resources.example.com/lesson-34.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719818",
+		"updatedAt": "2025-07-20T10:46:09.719821"
+	},
+	{
+		"_id": "d6e637cd-48ef-4ee6-ac83-aac8e946e59f",
+		"title": "Bài học 35: Giới thiệu lập trình",
+		"content": "Nội dung bài học 35 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-35.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719829",
+		"updatedAt": "2025-07-20T10:46:09.719831"
+	},
+	{
+		"_id": "63f9df0d-f137-467e-ac18-284619b3b6fe",
+		"title": "Bài học 36: Giới thiệu lập trình",
+		"content": "Nội dung bài học 36 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "e4cdb168-62e2-4c7b-871c-606cb0f282c1",
+		"resources": ["https://resources.example.com/lesson-36.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719856",
+		"updatedAt": "2025-07-20T10:46:09.719858"
+	},
+	{
+		"_id": "47c37059-9abe-4c22-b47d-ee995b81275a",
+		"title": "Bài học 30: Giới thiệu lập trình",
+		"content": "Nội dung bài học 30 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+		"resources": ["https://resources.example.com/lesson-30.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719751",
+		"updatedAt": "2025-07-20T10:46:09.719753"
+	},
+	{
+		"_id": "146c92ee-ebe8-4ae8-bc82-94bb1347e0fc",
+		"title": "Bài học 31: Giới thiệu lập trình",
+		"content": "Nội dung bài học 31 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "5dcce262-f00e-42a1-93a5-27fc79d1a02b",
+		"resources": ["https://resources.example.com/lesson-31.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719763",
+		"updatedAt": "2025-07-20T10:46:09.719765"
+	},
+	{
+		"_id": "26bbe9f7-f577-4737-9f22-ec62a3bacb74",
+		"title": "Bài học 32: Giới thiệu lập trình",
+		"content": "Nội dung bài học 32 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "2a231da5-742a-4c6c-9cd3-feda31d5acde",
+		"resources": ["https://resources.example.com/lesson-32.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719790",
+		"updatedAt": "2025-07-20T10:46:09.719792"
+	},
+	{
+		"_id": "59dd2acb-611e-42a0-bd3d-bd79cda7d1f0",
+		"title": "Bài học 33: Giới thiệu lập trình",
+		"content": "Nội dung bài học 33 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+		"resources": ["https://resources.example.com/lesson-33.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719803",
+		"updatedAt": "2025-07-20T10:46:09.719805"
+	},
+	{
+		"_id": "1ccffe56-5f2e-4d77-ab49-a874a32d0de4",
+		"title": "Bài học 34: Giới thiệu lập trình",
+		"content": "Nội dung bài học 34 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "8057ec78-57e5-4c73-ab9f-cbc37d2285be",
+		"resources": ["https://resources.example.com/lesson-34.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719818",
+		"updatedAt": "2025-07-20T10:46:09.719821"
+	},
+	{
+		"_id": "d6e637cd-48ef-4ee6-ac83-aac8e946e59f",
+		"title": "Bài học 35: Giới thiệu lập trình",
+		"content": "Nội dung bài học 35 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-35.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719829",
+		"updatedAt": "2025-07-20T10:46:09.719831"
+	},
+	{
+		"_id": "63f9df0d-f137-467e-ac18-284619b3b6fe",
+		"title": "Bài học 36: Giới thiệu lập trình",
+		"content": "Nội dung bài học 36 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "e4cdb168-62e2-4c7b-871c-606cb0f282c1",
+		"resources": ["https://resources.example.com/lesson-36.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719856",
+		"updatedAt": "2025-07-20T10:46:09.719858"
+	},
+	{
+		"_id": "e5eac14c-306a-4b09-a99e-8ee945b7e2c1",
+		"title": "Bài học 37: Giới thiệu lập trình",
+		"content": "Nội dung bài học 37 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "68e2ae5e-80a6-4cdc-bff8-17543a395055",
+		"resources": ["https://resources.example.com/lesson-37.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719868",
+		"updatedAt": "2025-07-20T10:46:09.719870"
+	},
+	{
+		"_id": "7def2fe7-7321-44b6-99cf-2354d2c1c9dc",
+		"title": "Bài học 38: Giới thiệu lập trình",
+		"content": "Nội dung bài học 38 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "2a231da5-742a-4c6c-9cd3-feda31d5acde",
+		"resources": ["https://resources.example.com/lesson-38.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719880",
+		"updatedAt": "2025-07-20T10:46:09.719882"
+	},
+	{
+		"_id": "2c5b5c28-708d-4c8c-aa5b-53f1f3f85b98",
+		"title": "Bài học 39: Giới thiệu lập trình",
+		"content": "Nội dung bài học 39 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "cefd2b18-0d54-4521-bc04-15c59840c561",
+		"resources": ["https://resources.example.com/lesson-39.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719892",
+		"updatedAt": "2025-07-20T10:46:09.719894"
+	},
+	{
+		"_id": "e71234f3-2a4d-463a-9dee-8dc5d0331837",
+		"title": "Bài học 40: Giới thiệu lập trình",
+		"content": "Nội dung bài học 40 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "a4e1a08f-6acc-4686-92d8-d6a705cba24e",
+		"resources": ["https://resources.example.com/lesson-40.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719904",
+		"updatedAt": "2025-07-20T10:46:09.719906"
+	},
+	{
+		"_id": "0efcf512-8ff8-4e9f-a856-33ebbfe74847",
+		"title": "Bài học 41: Giới thiệu lập trình",
+		"content": "Nội dung bài học 41 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "a8d8e21e-5d07-438d-82c5-010d1769441b",
+		"resources": ["https://resources.example.com/lesson-41.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719923",
+		"updatedAt": "2025-07-20T10:46:09.719925"
+	},
+	{
+		"_id": "1fbfe986-8602-4bd1-959e-a1a12f5a1dbb",
+		"title": "Bài học 42: Giới thiệu lập trình",
+		"content": "Nội dung bài học 42 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "8a999d4f-be87-4ec7-8d09-141cbfea85a3",
+		"resources": ["https://resources.example.com/lesson-42.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719935",
+		"updatedAt": "2025-07-20T10:46:09.719937"
+	},
+	{
+		"_id": "b0c01885-71e8-4ce7-88d3-0be74c9aaae4",
+		"title": "Bài học 43: Giới thiệu lập trình",
+		"content": "Nội dung bài học 43 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "dbb28296-a07b-4349-9ebf-a3533f64588a",
+		"resources": ["https://resources.example.com/lesson-43.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719946",
+		"updatedAt": "2025-07-20T10:46:09.719948"
+	},
+	{
+		"_id": "90d8e317-b906-4e98-8229-747621c0a9aa",
+		"title": "Bài học 45: Giới thiệu lập trình",
+		"content": "Nội dung bài học 45 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "2c6d9154-3d8f-4247-808a-1dd2a27be332",
+		"resources": ["https://resources.example.com/lesson-45.pdf"],
+		"createdAt": "2025-07-20T10:46:09.719977",
+		"updatedAt": "2025-07-20T10:46:09.719979"
+	},
+	{
+		"_id": "dc1dcc62-e9a1-4fcd-bcdc-9f71fdf8443f",
+		"title": "Bài học 46: Giới thiệu lập trình",
+		"content": "Nội dung bài học 46 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "d203e8c9-906e-42f3-a962-231f47519e59",
+		"resources": ["https://resources.example.com/lesson-46.pdf"],
+		"createdAt": "2025-07-20T10:46:09.720005",
+		"updatedAt": "2025-07-20T10:46:09.720007"
+	},
+	{
+		"_id": "823c95c2-4bf2-4845-832c-812b4c31786d",
+		"title": "Bài học 47: Giới thiệu lập trình",
+		"content": "Nội dung bài học 47 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "62e13b96-ea71-4bc6-a4c8-11c97d9f03b3",
+		"resources": ["https://resources.example.com/lesson-47.pdf"],
+		"createdAt": "2025-07-20T10:46:09.720016",
+		"updatedAt": "2025-07-20T10:46:09.720018"
+	},
+	{
+		"_id": "bcb5bee0-e4fa-4d78-9fca-02690fb85cae",
+		"title": "Bài học 48: Giới thiệu lập trình",
+		"content": "Nội dung bài học 48 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "48eb8779-9389-41bb-882f-b0760f3e07e1",
+		"resources": ["https://resources.example.com/lesson-48.pdf"],
+		"createdAt": "2025-07-20T10:46:09.720027",
+		"updatedAt": "2025-07-20T10:46:09.720030"
+	},
+	{
+		"_id": "ca3e2de2-37e2-4319-983b-f22e0b31b1ce",
+		"title": "Bài học 49: Giới thiệu lập trình",
+		"content": "Nội dung bài học 49 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "13b1db6d-fb66-4eec-803e-9dc360e40668",
+		"resources": ["https://resources.example.com/lesson-49.pdf"],
+		"createdAt": "2025-07-20T10:46:09.720044",
+		"updatedAt": "2025-07-20T10:46:09.720046"
+	},
+	{
+		"_id": "4463c761-3ef0-4687-9ecc-b04b5a50e7eb",
+		"title": "Bài học 50: Giới thiệu lập trình",
+		"content": "Nội dung bài học 50 về kiến thức lập trình cơ bản đến nâng cao.",
+		"courseId": "2c6d9154-3d8f-4247-808a-1dd2a27be332",
+		"resources": ["https://resources.example.com/lesson-50.pdf"],
+		"createdAt": "2025-07-20T10:46:09.720057",
+		"updatedAt": "2025-07-20T10:46:09.720059"
+	}
+]

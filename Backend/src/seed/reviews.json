@@ -1,0 +1,101 @@
+[
+	{
+		"_id": "5ea22616-bf83-4aca-bf63-8c5a15a45329",
+		"courseId": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+		"rating": 5,
+		"comment": "Khóa học rất hay và bổ ích. Giảng viên dạy rất dễ hiểu.",
+		"createdAt": "2024-09-01T10:30:00.000Z",
+		"updatedAt": "2024-09-01T10:30:00.000Z"
+	},
+	{
+		"_id": "b3f142b6-58a4-49e3-950f-cff6f23ceefe",
+		"courseId": "4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+		"userId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+		"rating": 4,
+		"comment": "Nội dung khóa học phong phú, tuy nhiên cần thêm bài tập thực hành.",
+		"createdAt": "2024-09-15T14:20:00.000Z",
+		"updatedAt": "2024-09-15T14:20:00.000Z"
+	},
+	{
+		"_id": "7ce6242a-7e5a-4f41-a635-04ee6cf751d7",
+		"courseId": "b5878990-b73a-4500-9fa0-06f7cadf8962",
+		"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+		"rating": 5,
+		"comment": "Tuyệt vời! Đây là khóa học tốt nhất tôi từng tham gia.",
+		"createdAt": "2024-10-05T09:15:00.000Z",
+		"updatedAt": "2024-10-05T09:15:00.000Z"
+	},
+	{
+		"_id": "d53e4e1c-bd5b-470e-ae2e-bd214f8c0626",
+		"courseId": "68e2ae5e-80a6-4cdc-bff8-17543a395055",
+		"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"rating": 4,
+		"comment": "Khóa học có chất lượng tốt, giảng viên nhiệt tình.",
+		"createdAt": "2024-10-20T16:45:00.000Z",
+		"updatedAt": "2024-10-20T16:45:00.000Z"
+	},
+	{
+		"_id": "f3a3a36b-92f0-4a4c-b3d6-9ab6c7b396c4",
+		"courseId": "816201f8-6a91-48dd-a22e-2b6113bd17f5",
+		"userId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"rating": 3,
+		"comment": "Khóa học ổn, nhưng cần cập nhật thêm kiến thức mới.",
+		"createdAt": "2024-11-01T11:30:00.000Z",
+		"updatedAt": "2024-11-01T11:30:00.000Z"
+	},
+	{
+		"_id": "6a1893d0-dcad-4e60-9264-60bb0c86a7a5",
+		"courseId": "a609df39-4b8a-43d0-89c9-b6e33505821c",
+		"userId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"rating": 5,
+		"comment": "Khóa học xuất sắc! Tôi đã học được rất nhiều kiến thức hữu ích.",
+		"createdAt": "2024-11-15T13:20:00.000Z",
+		"updatedAt": "2024-11-15T13:20:00.000Z"
+	},
+	{
+		"_id": "0d78c7f5-7707-4467-a9c9-6b0c355d3517",
+		"courseId": "2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3",
+		"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+		"rating": 4,
+		"comment": "Rất hài lòng với khóa học này. Sẽ giới thiệu cho bạn bè.",
+		"createdAt": "2024-12-01T08:45:00.000Z",
+		"updatedAt": "2024-12-01T08:45:00.000Z"
+	},
+	{
+		"_id": "998d89df-b862-41d5-a295-214dfd4ba1ed",
+		"courseId": "6e0fc363-ca70-4ec9-8acc-afedffc1e561",
+		"userId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"rating": 5,
+		"comment": "Khóa học mở rộng rất chất lượng, phù hợp cho người có kinh nghiệm.",
+		"createdAt": "2024-12-10T15:30:00.000Z",
+		"updatedAt": "2024-12-10T15:30:00.000Z"
+	},
+	{
+		"_id": "0a23f854-7fc3-4907-b447-055893c5d5ee",
+		"courseId": "6e0fc363-ca70-4ec9-8acc-afedffc1e561",
+		"userId": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"rating": 4,
+		"comment": "Nội dung sâu và chuyên nghiệp. Đáng để đầu tư thời gian học.",
+		"createdAt": "2024-12-15T10:15:00.000Z",
+		"updatedAt": "2024-12-15T10:15:00.000Z"
+	},
+	{
+		"_id": "453219dc-2629-4bc7-b992-c9f7db0d13c3",
+		"courseId": "c52256ca-bcc3-4a37-ab7b-a056d31aa675",
+		"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+		"rating": 5,
+		"comment": "Khóa học mở rộng tuyệt vời! Giúp tôi nâng cao kỹ năng lập trình.",
+		"createdAt": "2024-12-20T14:00:00.000Z",
+		"updatedAt": "2024-12-20T14:00:00.000Z"
+	},
+	{
+		"_id": "1e6e66e8-341b-4c29-bc8c-b4cd404d2a39",
+		"courseId": "c52256ca-bcc3-4a37-ab7b-a056d31aa675",
+		"userId": "3e95a4cd-80f2-446e-9970-c50373c935e5",
+		"rating": 4,
+		"comment": "Khóa học hay, giảng viên có kinh nghiệm thực tế tốt.",
+		"createdAt": "2025-01-05T09:30:00.000Z",
+		"updatedAt": "2025-01-05T09:30:00.000Z"
+	}
+]

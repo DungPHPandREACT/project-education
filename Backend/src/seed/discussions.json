@@ -1,0 +1,176 @@
+[
+	{
+		"_id": "disc-001-2024-09-01",
+		"courseId": "d1936037-2f6f-4413-868e-0a35327c47f1",
+		"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+		"question": "Làm thế nào để tối ưu hóa performance của ứng dụng web?",
+		"answers": [
+			{
+				"userId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+				"answer": "Bạn có thể sử dụng lazy loading, minify CSS/JS, và optimize images."
+			},
+			{
+				"userId": "3e95a4cd-80f2-446e-9970-c50373c935e5",
+				"answer": "Thêm vào đó, hãy sử dụng CDN và caching để tăng tốc độ tải trang."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-09-01T10:00:00.000Z",
+		"updatedAt": "2024-09-02T15:30:00.000Z"
+	},
+	{
+		"_id": "disc-002-2024-09-15",
+		"courseId": "4daab1a8-88c3-41e2-be8b-a905c6b39f7c",
+		"userId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+		"question": "Sự khác biệt giữa React và Vue.js là gì?",
+		"answers": [
+			{
+				"userId": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+				"answer": "React có ecosystem lớn hơn, Vue.js dễ học hơn cho người mới bắt đầu."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-09-15T14:20:00.000Z",
+		"updatedAt": "2024-09-16T09:45:00.000Z"
+	},
+	{
+		"_id": "disc-003-2024-10-05",
+		"courseId": "b5878990-b73a-4500-9fa0-06f7cadf8962",
+		"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+		"question": "Cách implement authentication trong Node.js như thế nào?",
+		"answers": [
+			{
+				"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+				"answer": "Bạn có thể sử dụng JWT tokens với bcrypt để hash password."
+			},
+			{
+				"userId": "1192ee80-b14e-4e63-ae91-6163b7e0a093",
+				"answer": "Passport.js cũng là một lựa chọn tốt cho authentication strategies."
+			}
+		],
+		"isClose": true,
+		"createdAt": "2024-10-05T09:15:00.000Z",
+		"updatedAt": "2024-10-07T16:20:00.000Z"
+	},
+	{
+		"_id": "disc-004-2024-10-20",
+		"courseId": "68e2ae5e-80a6-4cdc-bff8-17543a395055",
+		"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"question": "Database nào tốt nhất cho ứng dụng web scale lớn?",
+		"answers": [
+			{
+				"userId": "deceb263-b543-4525-ae21-9b7eeb5cc43c",
+				"answer": "Tùy thuộc vào use case. PostgreSQL cho relational data, MongoDB cho document-based."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-10-20T16:45:00.000Z",
+		"updatedAt": "2024-10-21T10:30:00.000Z"
+	},
+	{
+		"_id": "disc-005-2024-11-01",
+		"courseId": "816201f8-6a91-48dd-a22e-2b6113bd17f5",
+		"userId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"question": "Làm sao để deploy ứng dụng lên cloud?",
+		"answers": [
+			{
+				"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+				"answer": "AWS, Google Cloud, hoặc Azure đều là những lựa chọn tốt. Bạn có thể bắt đầu với Heroku cho đơn giản."
+			},
+			{
+				"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+				"answer": "Docker containers sẽ giúp việc deployment dễ dàng và consistent hơn."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-11-01T11:30:00.000Z",
+		"updatedAt": "2024-11-03T14:15:00.000Z"
+	},
+	{
+		"_id": "disc-006-2024-11-15",
+		"courseId": "a609df39-4b8a-43d0-89c9-b6e33505821c",
+		"userId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+		"question": "Best practices cho API design là gì?",
+		"answers": [
+			{
+				"userId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+				"answer": "Sử dụng RESTful principles, proper HTTP status codes, và consistent naming conventions."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-11-15T13:20:00.000Z",
+		"updatedAt": "2024-11-16T08:45:00.000Z"
+	},
+	{
+		"_id": "disc-007-2024-12-01",
+		"courseId": "2f6ebf39-3c1f-43f4-ab65-1c38e21fc8d3",
+		"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+		"question": "Cách handle errors trong JavaScript async/await?",
+		"answers": [
+			{
+				"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+				"answer": "Sử dụng try-catch blocks với async/await, hoặc .catch() với Promises."
+			},
+			{
+				"userId": "1566a962-511a-4e0b-adad-541dfe509604",
+				"answer": "Đừng quên handle cả synchronous và asynchronous errors."
+			}
+		],
+		"isClose": true,
+		"createdAt": "2024-12-01T08:45:00.000Z",
+		"updatedAt": "2024-12-02T12:30:00.000Z"
+	},
+	{
+		"_id": "disc-008-2024-12-10",
+		"courseId": "f0b5a3f0-4d0f-4e0a-9050-1c6dc56609a7",
+		"userId": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+		"question": "Microservices vs Monolithic architecture - nên chọn gì?",
+		"answers": [
+			{
+				"userId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+				"answer": "Bắt đầu với monolithic cho đơn giản, chuyển sang microservices khi cần scale."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-12-10T15:30:00.000Z",
+		"updatedAt": "2024-12-11T09:20:00.000Z"
+	},
+	{
+		"_id": "disc-009-2024-12-15",
+		"courseId": "c72bd201-e3ae-41ed-81f2-184583664cc9",
+		"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"question": "Testing strategies cho web applications?",
+		"answers": [
+			{
+				"userId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+				"answer": "Unit tests, integration tests, và end-to-end tests. Jest và Cypress là những tools tốt."
+			},
+			{
+				"userId": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+				"answer": "Đừng quên test coverage và continuous integration."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-12-15T10:15:00.000Z",
+		"updatedAt": "2024-12-16T14:45:00.000Z"
+	},
+	{
+		"_id": "disc-010-2024-12-20",
+		"courseId": "ce790be0-2e19-45da-ba52-542a10d76460",
+		"userId": "1566a962-511a-4e0b-adad-541dfe509604",
+		"question": "Security best practices cho web development?",
+		"answers": [
+			{
+				"userId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+				"answer": "HTTPS, input validation, SQL injection prevention, và regular security audits."
+			},
+			{
+				"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+				"answer": "Thêm vào đó: CORS configuration, rate limiting, và secure headers."
+			}
+		],
+		"isClose": false,
+		"createdAt": "2024-12-20T14:00:00.000Z",
+		"updatedAt": "2024-12-21T11:30:00.000Z"
+	}
+]

@@ -1,0 +1,222 @@
+[
+	{
+		"_id": "sched-001-2024-09-01",
+		"userCreated": "684cc362-e3ee-40dc-99e5-16e94789c456",
+		"usersJoin": [
+			{
+				"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+				"status": "confirmed"
+			},
+			{
+				"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+				"status": "pending"
+			},
+			{
+				"userId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+				"status": "confirmed"
+			}
+		],
+		"type": "online_meeting",
+		"link": "https://meet.google.com/abc-defg-hij",
+		"timeStart": "2024-09-15T14:00:00.000Z",
+		"timeEnd": "2024-09-15T16:00:00.000Z",
+		"createdAt": "2024-09-01T10:00:00.000Z",
+		"updatedAt": "2024-09-10T15:30:00.000Z"
+	},
+	{
+		"_id": "sched-002-2024-09-20",
+		"userCreated": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+		"usersJoin": [
+			{
+				"userId": "1566a962-511a-4e0b-adad-541dfe509604",
+				"status": "confirmed"
+			},
+			{
+				"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+				"status": "confirmed"
+			}
+		],
+		"type": "workshop",
+		"link": "https://zoom.us/j/123456789",
+		"timeStart": "2024-10-01T09:00:00.000Z",
+		"timeEnd": "2024-10-01T12:00:00.000Z",
+		"createdAt": "2024-09-20T08:30:00.000Z",
+		"updatedAt": "2024-09-25T14:20:00.000Z"
+	},
+	{
+		"_id": "sched-003-2024-10-05",
+		"userCreated": "deceb263-b543-4525-ae21-9b7eeb5cc43c",
+		"usersJoin": [
+			{
+				"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+				"status": "confirmed"
+			},
+			{
+				"userId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+				"status": "declined"
+			},
+			{
+				"userId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+				"status": "pending"
+			}
+		],
+		"type": "consultation",
+		"link": "https://teams.microsoft.com/l/meetup-join/xyz",
+		"timeStart": "2024-10-20T13:00:00.000Z",
+		"timeEnd": "2024-10-20T14:30:00.000Z",
+		"createdAt": "2024-10-05T11:15:00.000Z",
+		"updatedAt": "2024-10-15T16:45:00.000Z"
+	},
+	{
+		"_id": "sched-004-2024-10-25",
+		"userCreated": "c1ac02a4-f951-4826-983c-63003b9afcf2",
+		"usersJoin": [
+			{
+				"userId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+				"status": "confirmed"
+			},
+			{
+				"userId": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+				"status": "confirmed"
+			},
+			{
+				"userId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+				"status": "confirmed"
+			}
+		],
+		"type": "group_study",
+		"link": "https://discord.gg/study-group-123",
+		"timeStart": "2024-11-05T18:00:00.000Z",
+		"timeEnd": "2024-11-05T20:00:00.000Z",
+		"createdAt": "2024-10-25T12:00:00.000Z",
+		"updatedAt": "2024-11-01T09:30:00.000Z"
+	},
+	{
+		"_id": "sched-005-2024-11-10",
+		"userCreated": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"usersJoin": [
+			{
+				"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+				"status": "confirmed"
+			},
+			{
+				"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+				"status": "confirmed"
+			}
+		],
+		"type": "code_review",
+		"link": "https://meet.google.com/code-review-session",
+		"timeStart": "2024-11-25T15:00:00.000Z",
+		"timeEnd": "2024-11-25T17:00:00.000Z",
+		"createdAt": "2024-11-10T10:45:00.000Z",
+		"updatedAt": "2024-11-20T13:15:00.000Z"
+	},
+	{
+		"_id": "sched-006-2024-11-30",
+		"userCreated": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"usersJoin": [
+			{
+				"userId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+				"status": "pending"
+			},
+			{
+				"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+				"status": "confirmed"
+			}
+		],
+		"type": "project_demo",
+		"link": "https://zoom.us/j/project-demo-456",
+		"timeStart": "2024-12-15T10:00:00.000Z",
+		"timeEnd": "2024-12-15T11:30:00.000Z",
+		"createdAt": "2024-11-30T14:20:00.000Z",
+		"updatedAt": "2024-12-05T08:45:00.000Z"
+	},
+	{
+		"_id": "sched-007-2024-12-01",
+		"userCreated": "1566a962-511a-4e0b-adad-541dfe509604",
+		"usersJoin": [
+			{
+				"userId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+				"status": "confirmed"
+			},
+			{
+				"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+				"status": "confirmed"
+			},
+			{
+				"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+				"status": "declined"
+			}
+		],
+		"type": "mentoring",
+		"link": "https://teams.microsoft.com/mentoring-session",
+		"timeStart": "2024-12-20T16:00:00.000Z",
+		"timeEnd": "2024-12-20T18:00:00.000Z",
+		"createdAt": "2024-12-01T11:30:00.000Z",
+		"updatedAt": "2024-12-10T15:20:00.000Z"
+	},
+	{
+		"_id": "sched-008-2024-12-15",
+		"userCreated": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+		"usersJoin": [
+			{
+				"userId": "684cc362-e3ee-40dc-99e5-16e94789c456",
+				"status": "confirmed"
+			},
+			{
+				"userId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+				"status": "confirmed"
+			}
+		],
+		"type": "technical_interview",
+		"link": "https://meet.google.com/tech-interview-789",
+		"timeStart": "2025-01-10T14:00:00.000Z",
+		"timeEnd": "2025-01-10T15:30:00.000Z",
+		"createdAt": "2024-12-15T09:15:00.000Z",
+		"updatedAt": "2024-12-20T12:45:00.000Z"
+	},
+	{
+		"_id": "sched-009-2025-01-05",
+		"userCreated": "3e95a4cd-80f2-446e-9970-c50373c935e5",
+		"usersJoin": [
+			{
+				"userId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+				"status": "confirmed"
+			},
+			{
+				"userId": "e97f6113-c52f-4397-9ccd-0d5f5b234be9",
+				"status": "pending"
+			}
+		],
+		"type": "course_planning",
+		"link": null,
+		"timeStart": "2025-01-20T09:00:00.000Z",
+		"timeEnd": "2025-01-20T10:30:00.000Z",
+		"createdAt": "2025-01-05T08:30:00.000Z",
+		"updatedAt": "2025-01-10T14:15:00.000Z"
+	},
+	{
+		"_id": "sched-010-2025-01-15",
+		"userCreated": "1192ee80-b14e-4e63-ae91-6163b7e0a093",
+		"usersJoin": [
+			{
+				"userId": "470f4c6b-4dcb-4ff4-98cb-6c8121d04774",
+				"status": "confirmed"
+			},
+			{
+				"userId": "deceb263-b543-4525-ae21-9b7eeb5cc43c",
+				"status": "confirmed"
+			},
+			{
+				"userId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+				"status": "confirmed"
+			}
+		],
+		"type": "final_presentation",
+		"link": "https://zoom.us/j/final-presentation-999",
+		"timeStart": "2025-02-01T13:00:00.000Z",
+		"timeEnd": "2025-02-01T16:00:00.000Z",
+		"createdAt": "2025-01-15T10:00:00.000Z",
+		"updatedAt": "2025-01-25T16:30:00.000Z"
+	}
+]

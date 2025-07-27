@@ -1,0 +1,266 @@
+[
+	{
+		"_id": "uq-001-2024-09-01",
+		"userId": "9f59b463-af5f-4492-8aad-393bc34429be",
+		"quizId": "51bb24ae-d4dc-4e23-8653-4bd3651f1620",
+		"answers": [
+			{
+				"questionId": "1657e4dd-8deb-43cc-baea-5f34155c5498",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "71e5c3db-4461-4425-9658-e073aedbb3bc",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "3efd6321-16b9-43d0-84e5-26c429cf1223",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "6b5a7136-40ab-4686-a126-b4ebf72911d6",
+				"answer": "Phương án 3"
+			}
+		],
+		"score": 75,
+		"feedback": "Kết quả tốt! Bạn đã nắm vững phần lớn kiến thức cơ bản.",
+		"createdAt": "2024-09-01T15:30:00.000Z"
+	},
+	{
+		"_id": "uq-002-2024-09-15",
+		"userId": "7d3792fb-46cf-4d32-a8d2-7cd4de079b4b",
+		"quizId": "a9e9d2f9-d2b7-47cf-b224-4604848fb05d",
+		"answers": [
+			{
+				"questionId": "8889887c-6571-4f03-9864-079e7aa5e65f",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "1c1b6e5a-6653-4a72-95ff-b45035fcf733",
+				"answer": "Phương án 4"
+			},
+			{
+				"questionId": "716da569-94f8-4a3d-b5a6-7fee29518ade",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "7517abf5-3a3b-44bb-abeb-63a3b24af8be",
+				"answer": "Phương án 1"
+			}
+		],
+		"score": 100,
+		"feedback": "Xuất sắc! Bạn đã trả lời đúng tất cả các câu hỏi.",
+		"createdAt": "2024-09-15T16:45:00.000Z"
+	},
+	{
+		"_id": "uq-003-2024-10-05",
+		"userId": "e6063e23-a1a4-4a9a-98c4-1abaf874a4ab",
+		"quizId": "674c1ac8-c8a4-4a0a-bcf9-a419b625c932",
+		"answers": [
+			{
+				"questionId": "0e1abfcb-ff34-4875-a854-f660ac3f6835",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "78aa1d02-a59e-440f-80ea-ce2e08875d36",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "e5f5a214-e1da-4d36-8687-5e7dd306a4d8",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "7403dd1d-fd26-483a-b73c-188a8afafacd",
+				"answer": "Phương án 2"
+			}
+		],
+		"score": 50,
+		"feedback": "Cần cải thiện thêm. Hãy ôn lại kiến thức và thử lại.",
+		"createdAt": "2024-10-05T11:20:00.000Z"
+	},
+	{
+		"_id": "uq-004-2024-10-20",
+		"userId": "1ee2ce56-5374-4321-a0e8-6d8e1013b176",
+		"quizId": "9856cf50-9bcc-4d21-b4e2-2725ce32c105",
+		"answers": [
+			{
+				"questionId": "e6974e12-6976-4608-b0a6-c2cf3ca1af9d",
+				"answer": "Phương án 1,Phương án 2,Phương án 3"
+			},
+			{
+				"questionId": "5d8e85e3-dd6c-4c63-9314-2e2897840b4e",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "1f33a265-85de-4ff1-8ea9-3281174cbfde",
+				"answer": "Phương án 4"
+			}
+		],
+		"score": 85,
+		"feedback": "Rất tốt! Bạn đã hiểu sâu về chủ đề này.",
+		"createdAt": "2024-10-20T14:15:00.000Z"
+	},
+	{
+		"_id": "uq-005-2024-11-01",
+		"userId": "eba62f6b-d3be-45c5-befc-3584f8c416a8",
+		"quizId": "9b5c058a-4dee-4532-9bc7-213237a83825",
+		"answers": [
+			{
+				"questionId": "90b1e84c-3b4d-43d8-a705-c271534265e3",
+				"answer": "Phương án 1"
+			}
+		],
+		"score": 100,
+		"feedback": "Hoàn hảo! Câu trả lời chính xác.",
+		"createdAt": "2024-11-01T09:30:00.000Z"
+	},
+	{
+		"_id": "uq-006-2024-11-15",
+		"userId": "bf206746-6902-4967-8ec9-15fa5e405e2d",
+		"quizId": "f69cda1f-84b1-4c78-bf80-e6fdc1f18c9c",
+		"answers": [
+			{
+				"questionId": "47cebd83-c67b-41c7-a0d0-e6a38e7fcfdf",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "5ac644b9-c965-4634-9e00-9b6fd0a52fc4",
+				"answer": "Phương án 2"
+			}
+		],
+		"score": 50,
+		"feedback": "Kết quả trung bình. Hãy xem lại tài liệu và thực hành thêm.",
+		"createdAt": "2024-11-15T13:45:00.000Z"
+	},
+	{
+		"_id": "uq-007-2024-12-01",
+		"userId": "914390a6-a4f6-485d-a26c-e1fb50b4ca84",
+		"quizId": "3d9f59b9-2fa0-46c4-9f37-731544648f78",
+		"answers": [
+			{
+				"questionId": "17d8bd89-a646-4ebe-b3b3-050d253f54dd",
+				"answer": "Phương án 2"
+			}
+		],
+		"score": 0,
+		"feedback": "Cần học lại từ đầu. Hãy tham khảo thêm tài liệu và hỏi giảng viên.",
+		"createdAt": "2024-12-01T10:20:00.000Z"
+	},
+	{
+		"_id": "uq-008-2024-12-10",
+		"userId": "430c4870-cf87-4e7c-93bd-caf710c73b5c",
+		"quizId": "086c975f-c3b1-465f-8865-454114993edc",
+		"answers": [
+			{
+				"questionId": "ed390e4a-9a72-406d-8593-2563cbf0e8a7",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "11f94fb6-6b87-4b4b-b064-e4013d945561",
+				"answer": "Phương án 3"
+			}
+		],
+		"score": 50,
+		"feedback": "Kết quả khá. Cần cải thiện một số kiến thức cơ bản.",
+		"createdAt": "2024-12-10T16:30:00.000Z"
+	},
+	{
+		"_id": "uq-009-2024-12-15",
+		"userId": "b2bed4f8-eeda-4248-b999-9bf3e5b7ab3a",
+		"quizId": "434c8664-1ccf-46d1-8e4e-dd4d30164848",
+		"answers": [
+			{
+				"questionId": "e9d4c985-4a21-4df8-81df-7a0478486a35",
+				"answer": "Phương án 2,Phương án 3"
+			},
+			{
+				"questionId": "5a00858e-6130-4865-bc6e-03821efe7de6",
+				"answer": "Phương án 1,Phương án 4"
+			},
+			{
+				"questionId": "1f885eae-115c-48c6-b671-beda22323b36",
+				"answer": "Phương án 2"
+			}
+		],
+		"score": 90,
+		"feedback": "Rất tốt! Bạn đã nắm vững hầu hết kiến thức nâng cao.",
+		"createdAt": "2024-12-15T12:15:00.000Z"
+	},
+	{
+		"_id": "uq-010-2025-01-05",
+		"userId": "f67abd05-cd5b-49a9-8366-771ef91b16e1",
+		"quizId": "51bb24ae-d4dc-4e23-8653-4bd3651f1620",
+		"answers": [
+			{
+				"questionId": "1657e4dd-8deb-43cc-baea-5f34155c5498",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "71e5c3db-4461-4425-9658-e073aedbb3bc",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "3efd6321-16b9-43d0-84e5-26c429cf1223",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "6b5a7136-40ab-4686-a126-b4ebf72911d6",
+				"answer": "Phương án 1"
+			}
+		],
+		"score": 25,
+		"feedback": "Cần cải thiện nhiều. Hãy ôn lại kiến thức cơ bản và thực hành thêm.",
+		"createdAt": "2025-01-05T14:45:00.000Z"
+	},
+	{
+		"_id": "uq-011-2025-01-10",
+		"userId": "1566a962-511a-4e0b-adad-541dfe509604",
+		"quizId": "a9e9d2f9-d2b7-47cf-b224-4604848fb05d",
+		"answers": [
+			{
+				"questionId": "8889887c-6571-4f03-9864-079e7aa5e65f",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "1c1b6e5a-6653-4a72-95ff-b45035fcf733",
+				"answer": "Phương án 4"
+			},
+			{
+				"questionId": "716da569-94f8-4a3d-b5a6-7fee29518ade",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "7517abf5-3a3b-44bb-abeb-63a3b24af8be",
+				"answer": "Phương án 2"
+			}
+		],
+		"score": 75,
+		"feedback": "Kết quả tốt! Bạn đã có tiến bộ rõ rệt.",
+		"createdAt": "2025-01-10T11:00:00.000Z"
+	},
+	{
+		"_id": "uq-012-2025-01-15",
+		"userId": "3e95a4cd-80f2-446e-9970-c50373c935e5",
+		"quizId": "674c1ac8-c8a4-4a0a-bcf9-a419b625c932",
+		"answers": [
+			{
+				"questionId": "0e1abfcb-ff34-4875-a854-f660ac3f6835",
+				"answer": "Phương án 2"
+			},
+			{
+				"questionId": "78aa1d02-a59e-440f-80ea-ce2e08875d36",
+				"answer": "Phương án 3"
+			},
+			{
+				"questionId": "e5f5a214-e1da-4d36-8687-5e7dd306a4d8",
+				"answer": "Phương án 1"
+			},
+			{
+				"questionId": "7403dd1d-fd26-483a-b73c-188a8afafacd",
+				"answer": "Phương án 4"
+			}
+		],
+		"score": 25,
+		"feedback": "Cần học lại. Hãy tập trung vào các khái niệm cơ bản trước.",
+		"createdAt": "2025-01-15T15:20:00.000Z"
+	}
+]
