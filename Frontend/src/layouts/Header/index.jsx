@@ -1,4 +1,41 @@
+import { Input, Modal } from 'antd';
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { useLogin } from '../../apis/auth/auth.api';
+
 const Header = () => {
+	const [isOpenModal, setIsOpenModal] = useState(false);
+	const [formValue, setFormValue] = useState({
+		email: '',
+		password: '',
+	});
+
+	const { mutate: login } = useLogin({
+		onSuccess: (variable, response) => {
+			console.log('variable: ', variable);
+			console.log('response: ', response);
+		},
+		onError: (error) => {
+			console.log(error.response.data.message);
+		},
+	});
+
+	const handleOpenModal = () => {
+		setIsOpenModal(true);
+	};
+
+	const handleCloseModal = () => {
+		setIsOpenModal(false);
+	};
+
+	const handleChangeInput = (e) => {
+		setFormValue({ ...formValue, [e.target.name]: e.target.value });
+	};
+
+	const handleLogin = () => {
+		login(formValue);
+	};
+
 	return (
 		<header id='header' className='header d-flex align-items-center sticky-top'>
 			<div className='container-fluid container-xl position-relative d-flex align-items-center'>
@@ -8,27 +45,40 @@ const Header = () => {
 				<nav id='navmenu' className='navmenu'>
 					<ul>
 						<li>
-							<a href='index.html'>
+							<NavLink to='/'>
 								Home
 								<br />
-							</a>
+							</NavLink>
 						</li>
 						<li>
-							<a href='about.html'>About</a>
+							<NavLink to='/about'>
+								About
+								<br />
+							</NavLink>
 						</li>
 						<li>
-							<a href='courses.html' className='active'>
+							<NavLink to='/courses'>
 								Courses
-							</a>
+								<br />
+							</NavLink>
 						</li>
 						<li>
-							<a href='trainers.html'>Trainers</a>
+							<NavLink to='/teachers'>
+								Teachers
+								<br />
+							</NavLink>
 						</li>
 						<li>
-							<a href='events.html'>Events</a>
+							<NavLink to='/events'>
+								Events
+								<br />
+							</NavLink>
 						</li>
 						<li>
-							<a href='pricing.html'>Pricing</a>
+							<NavLink to='/contacts'>
+								Contacts
+								<br />
+							</NavLink>
 						</li>
 						<li className='dropdown'>
 							<a href='#'>
@@ -73,16 +123,49 @@ const Header = () => {
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href='contact.html'>Contact</a>
-						</li>
 					</ul>
 					<i className='mobile-nav-toggle d-xl-none bi bi-list' />
 				</nav>
-				<a className='btn-getstarted' href='courses.html'>
-					Get Started
-				</a>
+				<button
+					onClick={handleOpenModal}
+					className='btn-getstarted'
+					style={{ border: 'none' }}
+				>
+					Login
+				</button>
 			</div>
+			<Modal
+				title='Form login'
+				open={isOpenModal}
+				onOk={handleLogin}
+				onCancel={handleCloseModal}
+				okText='Login'
+				cancelText='Cancel'
+				maskClosable={false}
+			>
+				<div className='d-flex gap-3 flex-column'>
+					<div>
+						<label>Email</label>
+						<Input
+							value={formValue.email}
+							name='email'
+							type='text'
+							placeholder='Enter your email...'
+							onChange={handleChangeInput}
+						/>
+					</div>
+					<div>
+						<label>Password</label>
+						<Input.Password
+							value={formValue.password}
+							name='password'
+							type='password'
+							placeholder='Enter your password...'
+							onChange={handleChangeInput}
+						/>
+					</div>
+				</div>
+			</Modal>
 		</header>
 	);
 };

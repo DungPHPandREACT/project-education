@@ -1,15 +1,14 @@
 import { useQuery } from '@tanstack/react-query';
-import axios from 'axios';
-import { URL } from '../apis-config';
+import api, { URL } from '../apis-config';
 
 const URLTeachers = `${URL}/api/teachers`;
 
 const teachersApis = {
 	getAllTeachers: () => {
-		return axios.get(`${URLTeachers}`);
+		return api.get(`${URLTeachers}`);
 	},
 	getTopTeachersByCourses: (params) => {
-		return axios.get(`${URLTeachers}/top`, { params });
+		return api.get(`${URLTeachers}/top`, { params });
 	},
 };
 

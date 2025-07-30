@@ -1,3 +1,4 @@
+import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express from 'express';
 import config from './config/config';
@@ -21,7 +22,13 @@ const apiRouter = express.Router();
 connectDB();
 
 app.use(express.json());
-app.use(cors());
+app.use(cookieParser());
+app.use(
+	cors({
+		origin: 'http://localhost:3000',
+		credentials: true,
+	})
+);
 
 // Đăng ký các routes với apiRouter
 apiRouter.use('/auth', authRoutes);

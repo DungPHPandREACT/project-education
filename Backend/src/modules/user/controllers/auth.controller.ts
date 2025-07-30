@@ -59,9 +59,24 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
 
 		const token = generateToken(user);
 
+		const data = {
+			id: user._id,
+			email: user.email,
+			fullName: user.fullName,
+			role: user.role,
+		};
+
+		res.cookie('token', token, {
+			httpOnly: true,
+			secure: false,
+			maxAge: 3600 * 1000, // 1 hour
+			sameSite: 'lax',
+		});
+
 		res.json({
 			message: 'Đăng nhập thành công',
 			token,
+			data,
 		});
 	} catch (err) {
 		console.error(err);
