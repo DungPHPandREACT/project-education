@@ -1,7 +1,8 @@
-import { Input, Modal } from 'antd';
-import { useState } from 'react';
+import { Avatar, Input, Modal } from 'antd';
+import { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLogin } from '../../apis/auth/auth.api';
+import AuthContext from '../../contexts/AuthContext';
 
 const Header = () => {
 	const [isOpenModal, setIsOpenModal] = useState(false);
@@ -10,10 +11,12 @@ const Header = () => {
 		password: '',
 	});
 
+	const { userCurrent, setUserCurrent } = useContext(AuthContext);
+
 	const { mutate: login } = useLogin({
-		onSuccess: (variable, response) => {
-			console.log('variable: ', variable);
-			console.log('response: ', response);
+		onSuccess: (response, variable) => {
+			setUserCurrent(response.data.data);
+			setIsOpenModal(false);
 		},
 		onError: (error) => {
 			console.log(error.response.data.message);
@@ -126,13 +129,25 @@ const Header = () => {
 					</ul>
 					<i className='mobile-nav-toggle d-xl-none bi bi-list' />
 				</nav>
-				<button
-					onClick={handleOpenModal}
-					className='btn-getstarted'
-					style={{ border: 'none' }}
-				>
-					Login
-				</button>
+				{userCurrent ? (
+					<div style={{ marginLeft: '8px' }}>
+						<Avatar
+							style={{ backgroundColor: 'gray', verticalAlign: 'middle' }}
+							size='large'
+							gap={2}
+						>
+							{userCurrent.fullName}
+						</Avatar>
+					</div>
+				) : (
+					<button
+						onClick={handleOpenModal}
+						className='btn-getstarted'
+						style={{ border: 'none' }}
+					>
+						Login
+					</button>
+				)}
 			</div>
 			<Modal
 				title='Form login'

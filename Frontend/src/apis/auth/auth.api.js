@@ -1,4 +1,4 @@
-import { useMutation } from '@tanstack/react-query';
+import { useMutation, useQuery } from '@tanstack/react-query';
 import api, { URL } from '../apis-config';
 
 const URLAuth = `${URL}/api/auth`;
@@ -6,6 +6,9 @@ const URLAuth = `${URL}/api/auth`;
 const authApis = {
 	login: (data) => {
 		return api.post(`${URLAuth}/login`, data);
+	},
+	getUserCurrent: () => {
+		return api.get(`${URLAuth}/me`);
 	},
 };
 
@@ -18,5 +21,14 @@ export const useLogin = ({ onSuccess, onError }) => {
 		onError: (error) => {
 			onError(error);
 		},
+	});
+};
+
+export const useGetUserCurrent = (o) => {
+	return useQuery({
+		queryFn: () => authApis.getUserCurrent(),
+		queryKey: ['user-current'],
+		select: (response) => response.data.data,
+		...o,
 	});
 };

@@ -1,7 +1,8 @@
 import bcrypt from 'bcrypt';
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import config from '../../../config/config';
+import { RequestCustom } from '../../../types/express.type';
 import generateRefreshToken from '../../../utils/generateRefreshToken';
 import generateToken from '../../../utils/generateToken';
 import User, { IUser } from '../models/user.model';
@@ -60,15 +61,15 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
 			});
 		}
 
-		const token = generateToken(user);
-		const refreshToken = generateRefreshToken(user);
-
 		const data = {
 			_id: user._id,
 			email: user.email,
 			fullName: user.fullName,
 			role: user.role,
-		};
+		} as IUser;
+
+		const token = generateToken(data);
+		const refreshToken = generateRefreshToken(data);
 
 		res.cookie('token', token, {
 			httpOnly: true,
@@ -122,6 +123,56 @@ export const refresh = async (req: Request, res: Response): Promise<any> => {
 		console.log('error: ', error);
 		return res.status(403).json({
 			message: 'Refresh token hết hạn',
+		});
+	}
+};
+
+export const getCurrentUser = async (
+	req: RequestCustom,
+	res: Response,
+	next: NextFunction
+) => {
+	try {
+		const userId = req.user?._id;
+
+		if (!userId) {
+			res.status(401).json({
+				message: 'Không tìm thấy thông tin người dùng',
+			});
+			return;
+		}
+
+		const user = await User.findById(userId)
+			.select('-password -__v')
+			.populate({
+				path: 'courses',
+				select: 'title instructorId',
+				populate: {
+					path: 'instructorId',
+					select: 'fullName',
+				},
+			});
+
+		if (!user) {
+			res.status(404).json({
+				message: 'Không tìm thấy người dùng',
+				solution: '1. Kiểm tra token 2. Xác minh người dùng tồn tại trong DB',
+			});
+			return;
+		}
+
+		res.status(200).json({
+			message: 'Lấy thông tin người dùng thành công',
+			data: {
+				...user.toObject(),
+				lastAccessed: new Date(),
+			},
+		});
+	} catch (error) {
+		res.status(500).json({
+			message: 'Đã có lỗi xảy ra',
+			error: error instanceof Error ? error.message : 'Unknown error',
+			debug: process.env.NODE_ENV === 'development' ? error : undefined,
 		});
 	}
 };

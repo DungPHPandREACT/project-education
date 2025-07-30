@@ -20,8 +20,10 @@ const authMiddleware = (
 	try {
 		const decoded = jwt.verify(token, config.JWT_SECRET) as JwtPayload;
 
+		console.log('decoded: ', decoded)
+
 		req.user = {
-			_id: decoded.userId,
+			_id: decoded._id,
 			role: decoded.role,
 		} as UserPayload;
 
