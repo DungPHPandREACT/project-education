@@ -1,7 +1,10 @@
 import bcrypt from 'bcrypt';
 import { Request, Response } from 'express';
+import jwt from 'jsonwebtoken';
+import config from '../../../config/config';
+import generateRefreshToken from '../../../utils/generateRefreshToken';
 import generateToken from '../../../utils/generateToken';
-import User from '../models/user.model';
+import User, { IUser } from '../models/user.model';
 
 export const registerUser = async (
 	req: Request,
@@ -58,9 +61,10 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
 		}
 
 		const token = generateToken(user);
+		const refreshToken = generateRefreshToken(user);
 
 		const data = {
-			id: user._id,
+			_id: user._id,
 			email: user.email,
 			fullName: user.fullName,
 			role: user.role,
@@ -73,13 +77,51 @@ export const loginUser = async (req: Request, res: Response): Promise<any> => {
 			sameSite: 'lax',
 		});
 
+		res.cookie('refreshToken', refreshToken, {
+			httpOnly: true,
+			secure: false,
+			maxAge: 3600 * 1000 * 72, // 72 hour
+			sameSite: 'lax',
+		});
+
 		res.json({
 			message: 'Đăng nhập thành công',
-			token,
 			data,
 		});
 	} catch (err) {
 		console.error(err);
 		res.status(500).send('Server error');
+	}
+};
+
+export const refresh = async (req: Request, res: Response): Promise<any> => {
+	const { refreshToken } = req.cookies;
+
+	if (!refreshToken) {
+		return res.status(403).json({
+			message: 'Refresh token không hợp lệ',
+		});
+	}
+
+	try {
+		const decoded = jwt.verify(refreshToken, config.JWT_SECRET);
+
+		const newAccessToken = generateToken(decoded as IUser);
+
+		res.cookie('token', newAccessToken, {
+			httpOnly: true,
+			secure: false,
+			maxAge: 3600 * 1000, // 1 hour
+			sameSite: 'lax',
+		});
+
+		res.json({
+			message: 'Cấp phát access token thành công',
+		});
+	} catch (error) {
+		console.log('error: ', error);
+		return res.status(403).json({
+			message: 'Refresh token hết hạn',
+		});
 	}
 };
